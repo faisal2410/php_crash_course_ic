@@ -1,3 +1,5 @@
+<?php
+
 // ✅ Create Database
 // $sql = "CREATE DATABASE testdb001";
 // $conn -> exec($sql);

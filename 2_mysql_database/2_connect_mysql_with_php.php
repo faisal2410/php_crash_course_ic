@@ -1,3 +1,6 @@
+<?php
+
+
 //✅ Methods to Use
 
 // PHP 5 or later:- MySQLi Extension (i means improved)- PDO (PHP Data Object)

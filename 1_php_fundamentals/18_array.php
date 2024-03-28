@@ -1,3 +1,5 @@
+<?php
+
 // ✅ Array
 
 // An array stores multiple values in one single variable.

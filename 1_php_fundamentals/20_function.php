@@ -1,3 +1,5 @@
+<?php
+
 // ✅Types of Functions
 
 // Built-in Functions

@@ -1,3 +1,5 @@
+<?php
+
 // ✅Directory Structure View
 
 // $dir_content = scandir("/laragon/www/php_practice");
@@ -6,7 +8,7 @@
 // echo "</pre>";
 // ?>
 
-
+<?php
 // ✅Read File
 
 // Function needs: fopen

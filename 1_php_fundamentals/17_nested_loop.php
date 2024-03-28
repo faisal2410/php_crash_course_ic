@@ -1,3 +1,5 @@
+<?php
+
 // ✅ Nested Loop
 
 // A nested loop is a loop that is inside of another loop.

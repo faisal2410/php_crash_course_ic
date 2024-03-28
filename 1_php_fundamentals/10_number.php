@@ -1,3 +1,5 @@
+<?php
+
 // ✅Number
 
 // Numbers can be represented using the integer or float data types.

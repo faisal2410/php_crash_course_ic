@@ -1,3 +1,5 @@
+<?php
+
 // ✅Variable Scope in PHP
 
 // Global;

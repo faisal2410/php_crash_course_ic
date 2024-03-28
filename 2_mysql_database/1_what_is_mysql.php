@@ -1,3 +1,4 @@
+<?php
 //✅ MySQL;
 
 // MySQL is a free, open-source relational database management system (RDBMS) used for organizing and retrieving data in databases.

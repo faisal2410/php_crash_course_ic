@@ -1,3 +1,5 @@
+<?php
+
 // ✅if statement
 
 // Way 1:

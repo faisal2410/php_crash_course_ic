@@ -1,3 +1,5 @@
+<?php
+
 //✅ Array Functions
 
 // count()It is used to count the number of elements in an array

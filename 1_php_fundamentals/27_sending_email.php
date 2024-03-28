@@ -1,3 +1,5 @@
+<?php
+
 // ✅ Methods
 
 // Built-in mail() function

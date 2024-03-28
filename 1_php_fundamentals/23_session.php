@@ -1,3 +1,5 @@
+<?php
+
 // ✅ Session
 // A session is a way to store information (in variables) to be used across multiple pages.
 // Session variables last until the user closes the browser.

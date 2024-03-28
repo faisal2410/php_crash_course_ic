@@ -1,3 +1,5 @@
+
+<?php
 // ✅What is PHP
 
 // PHP is hypertext preprocessor

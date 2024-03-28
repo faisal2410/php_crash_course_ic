@@ -1,3 +1,5 @@
+<?php
+
 // ✅ Definition;
 
 // In PHP, a variable is a storage location and an associated name (identifier) which contains a value that can be changed or manipulated during the script execution.

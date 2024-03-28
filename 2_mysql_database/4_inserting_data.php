@@ -1,3 +1,5 @@
+<?php
+
 // ✅ Inserting Data
 
 // Query:

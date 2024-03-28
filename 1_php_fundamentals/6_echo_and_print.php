@@ -1,3 +1,5 @@
+<?php
+
 //✅ echo;
 // echo is used to get output on the screen
 // echo has no return value
