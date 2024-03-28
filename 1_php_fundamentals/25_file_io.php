@@ -21,11 +21,11 @@
 
 // Way 1:
 // if($fh = fopen('a.txt','r')) {
-//     while(!feof($fh)) {
-//         $line = fgets($fh);
-//         echo $line.'<br>';
-//     }
-//     fclose($fh);
+//  while(!feof($fh)) {
+//  $line = fgets($fh);
+//  echo $line.'<br>';
+//  }
+//  fclose($fh);
 // }
 
 
@@ -37,7 +37,7 @@
 // Way 3:
 // $file_lines = file('a.txt');
 // foreach($file_lines as $line) {
-//     echo $line.'<br>';
+//  echo $line.'<br>';
 // }
 
 
@@ -46,8 +46,8 @@
 // $filename = 'b.txt';
 // $file = fopen($filename,'w');
 // if($file == false) {
-//     echo 'Error in opening file';
-//     exit();
+//  echo 'Error in opening file';
+//  exit();
 // }
 // fwrite($file, "USA\nAustralia");
 // fclose($file);
@@ -58,8 +58,8 @@
 // $filename = 'b.txt';
 // $file = fopen($filename,'a');
 // if($file == false) {
-//     echo 'Error in opening file';
-//     exit();
+//  echo 'Error in opening file';
+//  exit();
 // }
 // fwrite($file, "\nCanada\nEngland");
 // fclose($file);

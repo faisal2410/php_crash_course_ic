@@ -20,7 +20,7 @@
 //          4  3  2  1  2  3  4
 
 
-// ✅Example – Multiplication Table
+// ✅Example  Multiplication Table
 // Go to 1_multiplication_table_image with in the images folder
 
 
