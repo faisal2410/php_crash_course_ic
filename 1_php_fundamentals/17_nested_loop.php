@@ -99,7 +99,7 @@
 //     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 //     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 //     <title>Document</title>
-//     <style>
+<!-- //     <style>
 //         .item-container {
 //             width: 100%;
 //         }
@@ -112,7 +112,7 @@
 //             margin-right: 10px;
 //             font-size: 20px;
 //             margin-bottom: 20px;
-//         }
+//         } -->
 //     </style>
 // </head>
 // <body>
