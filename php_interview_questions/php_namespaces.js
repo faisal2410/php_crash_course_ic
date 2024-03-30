@@ -1,0 +1,4 @@
+// Question 1: What are namespaces in PHP? How do they help in organizing and resolving naming conflicts in large projects?
+
+// Explanation
+// Namespaces in PHP provide a way to organize code into logical groups and prevent naming conflicts. They help in large projects by providing a hierarchical structure for classes, functions, and constants, ensuring that each component has a unique identifier within its namespace. Namespaces improve code organization, maintainability, and reusability by allowing you to logically group related code and avoid naming collisions. They are especially useful when working on projects with multiple developers or when integrating third-party libraries. For more information, you can refer to the PHP documentation: http://php.net/manual/en/language.namespaces.php

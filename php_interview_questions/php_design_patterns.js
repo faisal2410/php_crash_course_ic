@@ -1,0 +1,4 @@
+// Question 1: // Explain the concept of dependency injection in PHP. How does it promote loose coupling and better testability?
+
+// Explanation
+// Dependency injection is a powerful technique in PHP that improves code maintainability and testability. It allows you to inject dependencies into a class from the outside, making the class more modular and decoupled from its dependencies. This promotes loose coupling and makes it easier to replace or mock dependencies during testing. The concept of dependency injection involves passing dependencies to a class through constructor injection or setter injection. For more information, you can refer to the PHP documentation: http://php.net/manual/en/language.oop5.decon.php

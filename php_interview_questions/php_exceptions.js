@@ -1,0 +1,4 @@
+// Question 1:  How do you handle exceptions in PHP? Explain the try-catch-finally block.         
+
+// Explanation
+// In PHP, exceptions provide a way to handle runtime errors or exceptional situations gracefully. The try-catch-finally block allows you to handle exceptions by specifying the code that may throw an exception within the try block. If an exception is thrown, it can be caught and handled in the catch block. The finally block is optional and allows you to specify code that will be executed regardless of whether an exception was thrown or caught. This is useful for performing cleanup tasks. For more information, you can refer to the PHP documentation: http://php.net/manual/en/language.exceptions.php

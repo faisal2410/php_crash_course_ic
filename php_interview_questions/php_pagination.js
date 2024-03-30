@@ -1,0 +1,4 @@
+// Question 1:  How can you implement pagination in PHP for displaying large datasets? Discuss the techniques and considerations involved.
+
+// Explanation
+// Pagination in PHP is a common technique used to display large datasets in manageable chunks. It involves breaking the dataset into pages and displaying a limited number of records per page. Techniques for implementing pagination include using the LIMIT and OFFSET clauses in database queries, calculating the total number of pages, and generating navigation links. Considerations include determining the optimal number of records per page, efficiently querying the database, and handling edge cases such as empty datasets or invalid page numbers. For more information and examples, you can refer to the PHP documentation: http://php.net/manual/en/features.pagination.php

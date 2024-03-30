@@ -1,0 +1,4 @@
+// Question 1:  How can you implement caching in PHP to improve performance? Discuss different caching mechanisms available in PHP.
+
+// Explanation
+// Caching in PHP is a crucial technique for improving application performance. Different caching mechanisms can be used, such as in-memory caching, opcode caching, and database caching. In-memory caching stores data in memory, reducing the need for expensive database queries. Opcode caching speeds up code execution by storing compiled PHP code in memory. Database caching stores query results or computed data in a cache store, improving response times. Each caching mechanism has its advantages and use cases, and choosing the right one depends on the specific requirements of your application. For more information, you can refer to the PHP documentation: http://php.net/manual/en/book.apc.php, http://php.net/manual/en/book.memcache.php, http://php.net/manual/en/book.redis.php

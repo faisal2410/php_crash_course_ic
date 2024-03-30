@@ -1,0 +1,4 @@
+// Question 1:  What are the differences between cookies and sessions in PHP? When would you choose one over the other?
+
+// Explanation
+// Cookies and sessions are mechanisms in PHP used for storing data across multiple page requests. Cookies are small text files that are stored on the client-side, while sessions are stored on the server. Cookies are suitable for storing small amounts of data and are sent with each request. Sessions can store larger amounts of data and are identified by a session ID. They are stored on the server and associated with a specific user. The choice between cookies and sessions depends on factors such as the type of data to be stored, security requirements, and the need for server-side data persistence. For more information, you can refer to the PHP documentation: http://php.net/manual/en/features.cookies.php, http://php.net/manual/en/features.sessions.php
