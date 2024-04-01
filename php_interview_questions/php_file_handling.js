@@ -27,3 +27,19 @@
     
 // Explanation
 // The file_get_contents() function in PHP is used to read the contents of a file and return them as a string. It takes the file name or URL as a parameter and returns the contents of the file. This function is commonly used to read files and retrieve their contents. Learn more: http://php.net/manual/en/function.file-get-contents.php
+
+
+// Question 7: You are writing a PHP script and you need to upload a file. How would you do this?
+
+// Explanation
+// To upload a file in PHP, you can use the move_uploaded_file() function. This function moves an uploaded file to a specified destination. For more details, refer to: http://php.net/manual/en/function.move-uploaded-file.php
+
+// Question 8: You have a PHP script and you need to move an uploaded file to a specific directory. How would you do this?
+
+// Explanation
+// To move an uploaded file to a specific directory in PHP, you can utilize the move_uploaded_file() function. This function moves the file to the desired directory. Check out: http://php.net/manual/en/function.move-uploaded-file.php
+
+// Question 9: You need to handle file uploads in your PHP script, including checking the size and type of the uploaded file and handling any upload errors. How would you do this?
+
+// Explanation
+// To handle file uploads in PHP, you can use the $_FILES superglobal array to access the uploaded file information. Then, you can validate the file size and type and handle any upload errors. Learn more: http://php.net/manual/en/features.file-upload.php#example-481

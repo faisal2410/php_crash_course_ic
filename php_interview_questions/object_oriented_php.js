@@ -1,4 +1,4 @@
-// Question 1:What is the difference between abstract classes and interfaces in PHP? When would you use each?   
+// Question 1:What is the difference between abstract classes and interfaces in PHP? When would you use each?
 
 // Explanation
 // Abstract classes in PHP can have method implementations, allowing you to define common behavior for its subclasses.Interfaces, on the other hand, only define method signatures that must be implemented by classes.Abstract classes are used when you want to create a base class that provides common functionality, while interfaces are used to define a contract that multiple classes can adhere to.Knowing when to use each depends on the specific requirements of your application.For more information, you can refer to the PHP documentation: http://php.net/manual/en/language.oop5.abstract.php, http://php.net/manual/en/language.oop5.interfaces.php
@@ -12,3 +12,4 @@
     
 // Explanation
 // Method chaining in PHP allows you to invoke multiple methods on an object in a single line, improving code readability and simplifying object-oriented programming. By returning the object itself from each method call, you can chain subsequent method calls directly. This leads to more concise and expressive code, as it reduces the need for temporary variables or multiple lines of code. Method chaining is commonly used in libraries and frameworks to provide a fluent and intuitive interface for interacting with objects. For more information, you can refer to the PHP documentation: http://php.net/manual/en/language.oop5.magic.php
+

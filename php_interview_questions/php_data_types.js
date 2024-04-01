@@ -66,3 +66,14 @@
     
 // Explanation
 // To hold a simple true or false value in PHP, you would use the boolean data type. The boolean data type is specifically designed to store either true or false values. It is commonly used in conditions, logical operations, or to indicate the success or failure of an operation. By using the boolean data type, you can ensure that the variable only holds the expected true or false values, providing clarity and correctness to your code. Learn more: https://www.php.net/manual/en/language.types.boolean.php
+
+
+// Question 15: Which PHP function is used to check if a variable is of a specified type ?
+    
+// Explanation
+// The PHP function used to check if a variable is of a specified type is is_type().This function allows you to verify whether a variable belongs to a specific data type, such as string, integer, float, boolean, or array.It returns a boolean value indicating whether the variable matches the specified type.For further information, see: http://php.net/manual/en/function.is-string.php, http://php.net/manual/en/function.is-int.php, http://php.net/manual/en/function.is-float.php, http://php.net/manual/en/function.is-bool.php, http://php.net/manual/en/function.is-array.php
+
+// Question 16: You have a PHP script and you need to check if a variable is of a specified type.How would you do this ?
+    
+// Explanation
+// To check if a variable is of a specified type in PHP, you can use the is_type() function. This function allows you to verify whether a variable belongs to a specific data type, such as string, integer, float, boolean, or array. It returns a boolean value indicating whether the variable matches the specified type. For further information, see: http://php.net/manual/en/function.is-string.php, http://php.net/manual/en/function.is-int.php, http://php.net/manual/en/function.is-float.php, http://php.net/manual/en/function.is-bool.php, http://php.net/manual/en/function.is-array.php
