@@ -59,10 +59,10 @@
 // Explanation
 // The true statements about Form Handling in PHP are that it involves collecting and processing data submitted through HTML forms.PHP provides mechanisms to handle form data, such as accessing form field values, validating and sanitizing input, and performing actions based on the form data.PHP form handling is not primarily used for styling form elements using CSS, as that is the role of HTML and CSS.Form Handling in PHP can handle form data submitted via both the POST and GET methods.JavaScript can enhance form validation on the client - side but is not required for form handling in PHP.Learn more: https://www.php.net/manual/en/tutorial.forms.php
     
-Question 13: What can be potential issues when handling forms in PHP ?
+// Question 13: What can be potential issues when handling forms in PHP ?
     
-Explanation
-Potential issues when handling forms in PHP can include security vulnerabilities due to inadequate input validation and sanitization.Improper handling of user - submitted data can lead to security risks such as cross - site scripting(XSS) or SQL injection attacks.Performance issues may arise when processing large amounts of form data, especially if inefficient code or database operations are involved.In PHP, accessing form data using superglobal arrays like $_POST or $_GET is straightforward and does not pose significant issues.Styling form elements is primarily handled through HTML and CSS, so PHP's form handling itself does not have limitations in this aspect. Learn more: https://www.php.net/manual/en/tutorial.forms.php
+// Explanation
+// Potential issues when handling forms in PHP can include security vulnerabilities due to inadequate input validation and sanitization.Improper handling of user - submitted data can lead to security risks such as cross - site scripting(XSS) or SQL injection attacks.Performance issues may arise when processing large amounts of form data, especially if inefficient code or database operations are involved.In PHP, accessing form data using superglobal arrays like $_POST or $_GET is straightforward and does not pose significant issues.Styling form elements is primarily handled through HTML and CSS, so PHP's form handling itself does not have limitations in this aspect. Learn more: https://www.php.net/manual/en/tutorial.forms.php
 
 // Question 14: Which of the following are common uses of Form Handling in PHP ?
     
