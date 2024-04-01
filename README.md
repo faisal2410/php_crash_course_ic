@@ -20,7 +20,10 @@
 |   15    | php variable           | [ In PHP, variables declared inside a function can be accessed outside of that function.](#var13) |
 |   16    | php variable           | [ PHP uses the global keyword to make a local variable have global scope.](#var14) |
 |   17    | php data types           | [ What data type would be used in PHP to store a numeric value without a decimal ?](#datatype1) |
-|   18    | php data types           | [ What is the data type in PHP that is used to store a sequence of characters ?](#datatype2) |
+|   18    | php data types  | [ What is the data type in PHP that is used to store a sequence of characters ?](#datatype2) |
+|   19    | php data types  | [ Which PHP data type can hold multiple values ?](#datatype3) |
+|   20    | php data types  | [ In PHP, a boolean data type can hold one of two values: ______ or ______.](#datatype4) |
+|   21    | php data types  | [ The ______ data type in PHP is used to store a number with a decimal point.](#datatype5) |
 
 
 ## What is the software stack called that includes PHP, Apache, and MySQL for Windows?
@@ -123,6 +126,26 @@ In PHP, the int data type is used to store numeric values without a decimal.It c
 ###### datatype2
 
 In PHP, the string data type is used to store a sequence of characters.It can hold alphanumeric characters, symbols, and special characters.Strings are commonly used to represent text or data in PHP.They can be enclosed in single quotes('') or double quotes("") in PHP.Learn more: https://www.php.net/manual/en/language.types.string.php
+
+## Which PHP data type can hold multiple values ?
+###### datatype3
+
+The array data type in PHP can hold multiple values.It is a versatile data type that allows you to store multiple elements of different types in a single variable.Arrays in PHP can be indexed or associative, providing flexibility in accessing and organizing data.Arrays are commonly used for storing collections of related values or managing complex data structures.Learn more: https://www.php.net/manual/en/language.types.array.php
+
+## In PHP, a boolean data type can hold one of two values: ______ or ______.
+###### datatype4
+
+In PHP, a boolean data type can hold one of two values: true or false.Boolean values are used to represent logical states and are often used in conditional statements or to indicate the success or failure of an operation.The value true represents a true or positive condition, while the value false represents a false or negative condition.Learn more: https://www.php.net/manual/en/language.types.boolean.php
+
+## The ______ data type in PHP is used to store a number with a decimal point.
+###### datatype5
+
+The float data type in PHP is used to store a number with a decimal point.Floats, also known as floating - point numbers or doubles, can represent real numbers and are used when precision is required in calculations involving decimal values.Floats can hold positive and negative values with varying degrees of precision.Learn more: https://www.php.net/manual/en/language.types.float.php
+
+
+
+
+
 
 
 
