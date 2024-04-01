@@ -57,6 +57,15 @@
 |   52    | php string manipulation  | [What is the purpose of the str_replace() function in PHP ?](#phpstringmanipulation1) |
 |   53    | php function  | [The ______ function can be used in PHP to check the installed version of PHP.](#phpfunction1) |
 |   54    | php function  | [You want to check which version of PHP you have installed on your server.How would you do this ?](#phpfunction2) |
+|   55    | php file handling  | [How can you handle file uploads in PHP ? Discuss the steps involved and best practices to ensure security and validation.](#phpfilehandling1) |
+|   56    | php file handling  | [What is the function file_get_contents() useful for?](#phpfilehandling2) |
+|   57    | php file handling  | [What does the unlink() function mean?](#phpfilehandling3) |
+|   58    | php file handling  | [What is the purpose of the file_put_contents() function in PHP ?](#phpfilehandling4) |
+|   59    | php file handling  | [What is the purpose of the file_exists() function in PHP ?](#phpfilehandling5) |
+|   60    | php file handling  | [What is the purpose of the file_get_contents() function in PHP ?](#phpfilehandling6) |
+|   61    | php file handling  | [You are writing a PHP script and you need to upload a file. How would you do this?](#phpfilehandling7) |
+|   62    | php file handling  | [You have a PHP script and you need to move an uploaded file to a specific directory. How would you do this?](#phpfilehandling8) |
+|   63    | php file handling  | [You need to handle file uploads in your PHP script, including checking the size and type of the uploaded file and handling any upload errors. How would you do this?](#phpfilehandling9) |
 
 
 
@@ -430,6 +439,79 @@ PHP and HTML can interact by embedding PHP code within HTML using the <?php ?> t
 The phpinfo() function can be used to check the installed version of PHP, among other things. When this function is called, it displays a large amount of information about the current state of PHP, including details about PHP compilation options and extensions, the PHP version, server information and environment, etc. Learn more: https://www.php.net/manual/en/function.phpinfo.php
 
 **[⬆ Back to Top](#table-of-contents)**
+
+
+## How can you handle file uploads in PHP ? Discuss the steps involved and best practices to ensure security and validation.
+    
+###### phpfilehandling1
+ Handling file uploads in PHP requires specific steps to ensure security and validation. These steps involve creating an HTML form with the correct attributes, retrieving the uploaded file in PHP, validating the file size, type, and attributes, and securely moving the file to a designated location. Best practices include validating and sanitizing user input, setting file size limits, checking file types, and preventing direct execution of uploaded files. Implementing proper security measures and validating user input is crucial to protect against potential vulnerabilities. For more information and examples, you can refer to the PHP documentation: http://php.net/manual/en/features.file-upload.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+ 
+
+## What is the function file_get_contents() useful for?
+    
+###### phpfilehandling2
+ The file_get_contents() function is used to read the contents of a file and return the contents as a string in PHP.It is commonly used to fetch the contents of a remote file or read the contents of a local file.This function can be useful for reading configuration files, fetching data from APIs, or reading the contents of HTML templates.For example, you can use file_get_contents('https://example.com/data.json') to fetch the JSON data from a remote API.The file_get_contents() function provides a convenient way to retrieve the contents of a file without manually opening and reading the file.
+
+ **[⬆ Back to Top](#table-of-contents)**
+ 
+    
+## What does the unlink() function mean?
+
+###### phpfilehandling3
+ The unlink() function in PHP is used to delete a file from the server.It takes a single argument, which is the path to the file you want to delete.For example, you can use unlink('path/to/file.txt') to delete the file "file.txt" located in the "path/to" directory.It's important to note that the unlink() function permanently deletes the file, and there is no way to undo this operation. Therefore, caution should be exercised when using this function. It's also worth mentioning that the unlink() function requires appropriate file system permissions to delete the file.
+
+ **[⬆ Back to Top](#table-of-contents)**
+ 
+    
+## What is the purpose of the file_put_contents() function in PHP ?
+    
+###### phpfilehandling4
+ The file_put_contents() function in PHP is used to write data to a file.It takes the file name and the data to be written as parameters and writes the data to the specified file.This function is a convenient way to write data to a file without explicitly opening and closing the file handles.Learn more: http://php.net/manual/en/function.file-put-contents.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+ 
+
+## What is the purpose of the file_exists() function in PHP ?
+    
+###### phpfilehandling5
+ The file_exists() function in PHP is used to check if a file or directory exists.It returns true if the specified file or directory exists and false otherwise.This function is useful for performing file operations based on the existence of files or directories.Learn more: http://php.net/manual/en/function.file-exists.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+ 
+
+## What is the purpose of the file_get_contents() function in PHP ?
+    
+###### phpfilehandling6
+ The file_get_contents() function in PHP is used to read the contents of a file and return them as a string. It takes the file name or URL as a parameter and returns the contents of the file. This function is commonly used to read files and retrieve their contents. Learn more: http://php.net/manual/en/function.file-get-contents.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+
+## You are writing a PHP script and you need to upload a file. How would you do this?
+
+###### phpfilehandling7
+ To upload a file in PHP, you can use the move_uploaded_file() function. This function moves an uploaded file to a specified destination. For more details, refer to: http://php.net/manual/en/function.move-uploaded-file.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+## You have a PHP script and you need to move an uploaded file to a specific directory. How would you do this?
+
+###### phpfilehandling8
+ To move an uploaded file to a specific directory in PHP, you can utilize the move_uploaded_file() function. This function moves the file to the desired directory. Check out: http://php.net/manual/en/function.move-uploaded-file.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+ 
+
+## You need to handle file uploads in your PHP script, including checking the size and type of the uploaded file and handling any upload errors. How would you do this?
+
+###### phpfilehandling9
+ To handle file uploads in PHP, you can use the $_FILES superglobal array to access the uploaded file information. Then, you can validate the file size and type and handle any upload errors. Learn more: http://php.net/manual/en/features.file-upload.php#example-481
+
+ **[⬆ Back to Top](#table-of-contents)**
+ 
+
 
 
    
