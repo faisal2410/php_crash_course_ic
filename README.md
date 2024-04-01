@@ -1,4 +1,4 @@
-# PHP Conceptual / Interview Questions & Answers
+# PHP Conceptual / Interview Questions & Explanation
 
 ### Table of Contents
 | Number | Keyword          | Question                                        |
