@@ -55,6 +55,8 @@
 |   50    | php and html  | [Is it possible to submit a form with a dedicated button?](#phpandhtml2) |
 |   51    | php and javascript  | [How can PHP and JavaScript interact?](#phpandjavascript1) |
 |   52    | php string manipulation  | [What is the purpose of the str_replace() function in PHP ?](#phpstringmanipulation1) |
+|   53    | php function  | [The ______ function can be used in PHP to check the installed version of PHP.](#phpfunction1) |
+|   54    | php function  | [You want to check which version of PHP you have installed on your server.How would you do this ?](#phpfunction2) |
 
 
 
@@ -395,6 +397,22 @@ PHP and HTML can interact by embedding PHP code within HTML using the <?php ?> t
    The str_replace() function in PHP is used to replace all occurrences of a substring in a string with a specified replacement. It takes the substring to be replaced, the replacement string, and the input string as parameters and returns the modified string. This function is useful for string manipulation and replacing specific content. Learn more: http://php.net/manual/en/function.str-replace.php
 
    **[⬆ Back to Top](#table-of-contents)**
+
+
+   ## The ______ function can be used in PHP to check the installed version of PHP.
+    
+###### phpfunction1
+ The phpinfo() function can be used to check the installed version of PHP, among many other things.When this function is called, it displays a large amount of information about the current state of PHP, including details about PHP compilation options and extensions, the PHP version, server information and environment, etc.Learn more: https://www.php.net/manual/en/function.phpinfo.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+## You want to check which version of PHP you have installed on your server.How would you do this ?
+    
+###### phpfunction2
+The phpinfo() function can be used to check the installed version of PHP, among other things. When this function is called, it displays a large amount of information about the current state of PHP, including details about PHP compilation options and extensions, the PHP version, server information and environment, etc. Learn more: https://www.php.net/manual/en/function.phpinfo.php
+
+**[⬆ Back to Top](#table-of-contents)**
+
 
    
    
