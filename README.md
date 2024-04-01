@@ -4,10 +4,10 @@
 |   2    | php variable     | [In PHP, a variable name must start with a ______ followed by the name of the variable.](#var2)                  |
 |   3    | php variable     | [PHP is case -sensitive for variable names.](#var3)                      |
 |   4    | php variable     | [In PHP, variable names can start with a number.](#var4)                      |
-|   4    | Configuration    | [What configurations are available?](#question4)              |
-|   5    | Troubleshooting  | [How do I troubleshoot common issues?](#question5)            |
-|   6    | Contributing     | [How can I contribute to this project?](#question6)           |
-|   7    | License          | [What are the licensing terms for this project?](#question7) 
+|   5    | Configuration    | [What configurations are available?](#question4)              |
+|   6    | Troubleshooting  | [How do I troubleshoot common issues?](#question5)            |
+|   7    | Contributing     | [How can I contribute to this project?](#question6)           |
+|   8    | License          | [What are the licensing terms for this project?](#question7) 
 
 
 ## var1
