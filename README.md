@@ -53,6 +53,7 @@
 |   48    | php data types  | [ You have a PHP script and you need to check if a variable is of a specified type.How would you do this ?](#datatype16) |
 |   49    | php and html  | [How can PHP and HTML interact ?](#phpandhtml1) |
 |   50    | php and html  | [Is it possible to submit a form with a dedicated button?](#phpandhtml2) |
+|   51    | php and javascript  | [How can PHP and JavaScript interact?](#phpandjavascript1) |
 
 
 
@@ -379,6 +380,20 @@ PHP and HTML can interact by embedding PHP code within HTML using the <?php ?> t
   Yes, it is possible to submit a form with a dedicated button using the <button> element with the type="submit" attribute. This allows you to have a button specifically dedicated to form submission. Learn more: http://www.w3schools.com/tags/tag_button.asp
 
    **[⬆ Back to Top](#table-of-contents)**
+
+
+   ## How can PHP and JavaScript interact?
+   ###### phpandjavascript1
+
+   PHP and JavaScript can interact in several ways. One common way is by embedding PHP code within JavaScript code using <?php ?> tags. This allows you to dynamically generate JavaScript code on the server-side using PHP. Another way is by making AJAX requests from JavaScript to PHP, sending data asynchronously and receiving responses. This enables communication between the client-side JavaScript and the server-side PHP. Additionally, cookies can be used to share data between PHP and JavaScript by setting and retrieving cookie values. This allows for data exchange between the two languages.
+
+   **[⬆ Back to Top](#table-of-contents)**
+   
+
+    
+
+   
+   
 
   
 
