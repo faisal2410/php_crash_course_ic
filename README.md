@@ -42,6 +42,7 @@
 |   37    | php installation  | [ Which of the following are steps in the PHP installation process ?](#phpinstall5) |
 |   38    | php installation  | [ Which of the following are requirements for installing PHP ?](#phpinstall6) |
 |   39    | php installation  | [ You have been asked to set up a local development environment for PHP.What steps would you take ?](#phpinstall7) |
+|   40    | php history  | [ PHP was originally created by ______ in the year ______.](#phphistory1) |
 
 
 
@@ -289,6 +290,14 @@ To install PHP, a web server is required as PHP is primarily a server - side scr
 Setting up a local development environment for PHP involves several steps. You would typically start by installing a text editor or IDE to write your PHP scripts. Then, you'd install a software stack like WAMP, MAMP, or LAMP, which includes a web server, a database system, and the PHP interpreter. Finally, you would create a new PHP file and save it in the web server's root directory. Learn more: https://www.php.net/manual/en/install.general.php
 
 **[⬆ Back to Top](#table-of-contents)**
+
+## PHP was originally created by ______ in the year ______.
+###### phphistory1
+
+PHP was originally created by Rasmus Lerdorf in 1994. It started as a simple set of Common Gateway Interface (CGI) binaries written in the C programming language. Learn more: https://www.php.net/manual/en/history.php.php
+
+**[⬆ Back to Top](#table-of-contents)**
+
 
 
 
