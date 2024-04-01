@@ -54,6 +54,7 @@
 |   49    | php and html  | [How can PHP and HTML interact ?](#phpandhtml1) |
 |   50    | php and html  | [Is it possible to submit a form with a dedicated button?](#phpandhtml2) |
 |   51    | php and javascript  | [How can PHP and JavaScript interact?](#phpandjavascript1) |
+|   52    | php string manipulation  | [What is the purpose of the str_replace() function in PHP ?](#phpstringmanipulation1) |
 
 
 
@@ -388,6 +389,16 @@ PHP and HTML can interact by embedding PHP code within HTML using the <?php ?> t
    PHP and JavaScript can interact in several ways. One common way is by embedding PHP code within JavaScript code using <?php ?> tags. This allows you to dynamically generate JavaScript code on the server-side using PHP. Another way is by making AJAX requests from JavaScript to PHP, sending data asynchronously and receiving responses. This enables communication between the client-side JavaScript and the server-side PHP. Additionally, cookies can be used to share data between PHP and JavaScript by setting and retrieving cookie values. This allows for data exchange between the two languages.
 
    **[⬆ Back to Top](#table-of-contents)**
+
+   ## What is the purpose of the str_replace() function in PHP ?
+   ###### phpstringmanipulation1
+   The str_replace() function in PHP is used to replace all occurrences of a substring in a string with a specified replacement. It takes the substring to be replaced, the replacement string, and the input string as parameters and returns the modified string. This function is useful for string manipulation and replacing specific content. Learn more: http://php.net/manual/en/function.str-replace.php
+
+   **[⬆ Back to Top](#table-of-contents)**
+
+   
+   
+   
    
 
     
