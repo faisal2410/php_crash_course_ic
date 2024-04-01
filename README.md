@@ -3,20 +3,34 @@
 ### Table of Contents
 | Number | Keyword          | Question                                        |
 |--------|------------------|-------------------------------------------------|
-|   1    | php variable     | [How are variables in PHP declared ?](#var1)           |
-|   2    | php variable     | [In PHP, a variable name must start with a ______ followed by the name of the variable.](#var2)                  |
-|   3    | php variable     | [PHP is case -sensitive for variable names.](#var3)                      |
-|   4    | php variable     | [In PHP, variable names can start with a number.](#var4)                      |
-|   5    | php variable    | [Which of the following are valid PHP variable names ?](#var5)              |
-|   6    | php variable  | [You need to declare a variable in PHP to store a user's age. How would you do this?](#var6)            |
-|   7    | php variable     | [What is the scope of a variable that is declared within a PHP function?](#var7)           |
-|   8    | php variable           | [What keyword is used in PHP to access a global variable inside a function?](#var8) |
-|   9    | php variable           | [Which type of variable in PHP is accessible anywhere in the script ?](#var9) |
-|   10    | php variable           | [A variable declared within a function in PHP has a ______ scope.](#var10) |
-|   11    | php variable           | [The ______ keyword is used in PHP to make a local variable accessible globally.](#var11) |
-|   12    | php variable           | [ A variable declared outside all functions in PHP is considered to have a ______ scope.](#var12) |
-|   13    | php variable           | [ In PHP, variables declared inside a function can be accessed outside of that function.](#var13) |
-|   14    | php variable           | [ PHP uses the global keyword to make a local variable have global scope.](#var14) |
+|   1    | local development environment     | [What is the software stack called that includes PHP, Apache, and MySQL for Windows?](#local1)           |
+|   2    | local development environment     | [Which of the following software stacks include PHP?](#local2)           |
+|   3    | php variable     | [How are variables in PHP declared ?](#var1)           |
+|   4    | php variable     | [In PHP, a variable name must start with a ______ followed by the name of the variable.](#var2)                  |
+|   5    | php variable     | [PHP is case -sensitive for variable names.](#var3)                      |
+|   6    | php variable     | [In PHP, variable names can start with a number.](#var4)                      |
+|   7    | php variable    | [Which of the following are valid PHP variable names ?](#var5)              |
+|   8    | php variable  | [You need to declare a variable in PHP to store a user's age. How would you do this?](#var6)            |
+|   9    | php variable     | [What is the scope of a variable that is declared within a PHP function?](#var7)           |
+|   10    | php variable           | [What keyword is used in PHP to access a global variable inside a function?](#var8) |
+|   11    | php variable           | [Which type of variable in PHP is accessible anywhere in the script ?](#var9) |
+|   12    | php variable           | [A variable declared within a function in PHP has a ______ scope.](#var10) |
+|   13    | php variable           | [The ______ keyword is used in PHP to make a local variable accessible globally.](#var11) |
+|   14    | php variable           | [ A variable declared outside all functions in PHP is considered to have a ______ scope.](#var12) |
+|   15    | php variable           | [ In PHP, variables declared inside a function can be accessed outside of that function.](#var13) |
+|   16    | php variable           | [ PHP uses the global keyword to make a local variable have global scope.](#var14) |
+
+## What is the software stack called that includes PHP, Apache, and MySQL for Windows?
+###### local1
+The software stack that includes PHP, Apache, and MySQL for Windows is known as WAMP. "WAMP" stands for Windows, Apache, MySQL, and PHP. This stack provides developers with the necessary environment to test web apps locally before deploying them. Apache is the web server, MySQL is the database, and PHP is the scripting language. Learn more: http://www.wampserver.com/en/
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Which of the following software stacks include PHP?
+###### local2
+WAMP is a software stack for Windows that includes PHP. WAMP stands for Windows, Apache, MySQL, and PHP. Apache is the web server, MySQL is the database, and PHP is the scripting language. It's a popular choice for developers working in a Windows environment. Other software stacks like MEAN, Ruby on Rails, and Django use different programming languages. Learn more: http://www.wampserver.com/en/
+
+**[⬆ Back to Top](#table-of-contents)**
 
 ## How are variables in PHP declared ?
 ###### var1
