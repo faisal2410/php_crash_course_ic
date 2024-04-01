@@ -3,57 +3,56 @@
 ### Table of Contents
 | Number | Keyword          | Question                                        |
 |--------|------------------|-------------------------------------------------|
-|   1    | local development environment     | [What is the software stack called that includes PHP, Apache, and MySQL for Windows?](#local1)           |
-|   2    | local development environment     | [Which of the following software stacks include PHP?](#local2)           |
-|   3    | php variable     | [How are variables in PHP declared ?](#var1)           |
-|   4    | php variable     | [In PHP, a variable name must start with a ______ followed by the name of the variable.](#var2)                  |
-|   5    | php variable     | [PHP is case -sensitive for variable names.](#var3)                      |
-|   6    | php variable     | [In PHP, variable names can start with a number.](#var4)                      |
-|   7    | php variable    | [Which of the following are valid PHP variable names ?](#var5)              |
-|   8    | php variable  | [You need to declare a variable in PHP to store a user's age. How would you do this?](#var6)            |
-|   9    | php variable     | [What is the scope of a variable that is declared within a PHP function?](#var7)           |
-|   10    | php variable           | [What keyword is used in PHP to access a global variable inside a function?](#var8) |
-|   11    | php variable           | [Which type of variable in PHP is accessible anywhere in the script ?](#var9) |
-|   12    | php variable           | [A variable declared within a function in PHP has a ______ scope.](#var10) |
-|   13    | php variable           | [The ______ keyword is used in PHP to make a local variable accessible globally.](#var11) |
-|   14    | php variable           | [ A variable declared outside all functions in PHP is considered to have a ______ scope.](#var12) |
-|   15    | php variable           | [ In PHP, variables declared inside a function can be accessed outside of that function.](#var13) |
-|   16    | php variable           | [ PHP uses the global keyword to make a local variable have global scope.](#var14) |
-|   17    | php data types           | [ What data type would be used in PHP to store a numeric value without a decimal ?](#datatype1) |
-|   18    | php data types  | [ What is the data type in PHP that is used to store a sequence of characters ?](#datatype2) |
-|   19    | php data types  | [ Which PHP data type can hold multiple values ?](#datatype3) |
-|   20    | php data types  | [ In PHP, a boolean data type can hold one of two values: ______ or ______.](#datatype4) |
-|   21    | php data types  | [ The ______ data type in PHP is used to store a number with a decimal point.](#datatype5) |
-|   22    | php data types  | [ An array in PHP is a type of ______ data type.](#datatype6) |
-|   23    | php data types  | [ PHP supports eight primitive data types.](#datatype7) |
-|   24    | php data types  | [ In PHP, a string can contain letters, numbers, and special characters.](#datatype8) |
-|   25    | php data types  | [ In PHP, an array can only hold values of the same data type.](#datatype9) |
-|   26    | php data types  | [ Which of the following are valid data types in PHP ?](#datatype10) |
-|   27    | php data types  | [ Which of the following PHP data types can hold multiple values?](#datatype11) |
-|   28    | php data types  | [ Which of the following are true about PHP data types ?](#datatype12) |
-|   29    | php data types  | [ You need to store a user's age in your PHP script. What data type would you use and why?](#datatype13) |
-|   30    | php data types  | [ You have a variable in your PHP script that needs to hold a simple true or false value.What data type would you use ?](#datatype14) |
-|   31    | php data types  | [ Which PHP function is used to check if a variable is of a specified type ?](#datatype15) |
-|   32    | php data types  | [ You have a PHP script and you need to check if a variable is of a specified type.How would you do this ?](#datatype16) |
-|   33    | php installation  | [ On which of the following operating systems can PHP be installed ?](#phpinstall1) |
-|   34    | php installation  | [ After installing PHP, you need to restart the ______ to make sure the changes take effect.](#phpinstall2) |
-|   35    | php installation  | [ PHP can only be installed on a Linux operating system.](#phpinstall3) |
-|   36    | php installation  | [ After installing PHP, you can immediately start running PHP scripts without restarting the server.](#phpinstall4) |
-|   37    | php installation  | [ Which of the following are steps in the PHP installation process ?](#phpinstall5) |
-|   38    | php installation  | [ Which of the following are requirements for installing PHP ?](#phpinstall6) |
-|   39    | php installation  | [ You have been asked to set up a local development environment for PHP.What steps would you take ?](#phpinstall7) |
-|   40    | php history  | [ PHP was originally created by ______ in the year ______.](#phphistory1) |
-|   41    | php benefits  | [ You have been asked to explain the benefits of using PHP for web development to a potential client. What would you say?](#phpbenefits1) |
-|   42    | php general knowledge  | [ What does PHP stand for?](#phpgeneralknowledge1) |
-|   43    | web development with php  | [PHP is primarily used for which type of development ?](#webdevelopmentwithphp1) |
-|   44    | web development with php  | [PHP can be used to develop static web pages.](#webdevelopmentwithphp2) |
-|   45    | web development with php  | [Which of the following are common uses of PHP ?](#webdevelopmentwithphp3) |
-|   46    | web development with php  | [Imagine you are tasked with developing a dynamic website that interacts with a database.Would PHP be a suitable choice for this task ? Why or why not ?](#webdevelopmentwithphp4) |
-|   47    | php and html  | [How can PHP and HTML interact ?](#phpandhtml1) |
-|   48    | php and html  | [Is it possible to submit a form with a dedicated button?](#phpandhtml2) |
-|   49    | php features  | [Which of the following are features of PHP?](#phpfeatures1) |
-|   50    | php syntax  | [PHP scripts are enclosed within ______ tags.](#phpsyntax1) |
-
+|   1    | php general knowledge  | [ What does PHP stand for?](#phpgeneralknowledge1) |
+|   2    | php history  | [ PHP was originally created by ______ in the year ______.](#phphistory1) |
+|   3    | php benefits  | [ You have been asked to explain the benefits of using PHP for web development to a potential client. What would you say?](#phpbenefits1) |
+|   4    | php features  | [Which of the following are features of PHP?](#phpfeatures1) |
+|   5    | web development with php  | [PHP is primarily used for which type of development ?](#webdevelopmentwithphp1) |
+|   6    | web development with php  | [PHP can be used to develop static web pages.](#webdevelopmentwithphp2) |
+|   7    | web development with php  | [Which of the following are common uses of PHP ?](#webdevelopmentwithphp3) |
+|   8    | web development with php  | [Imagine you are tasked with developing a dynamic website that interacts with a database.Would PHP be a suitable choice for this task ? Why or why not ?](#webdevelopmentwithphp4) |
+|   9    | php installation  | [ On which of the following operating systems can PHP be installed ?](#phpinstall1) |
+|   10    | php installation  | [ After installing PHP, you need to restart the ______ to make sure the changes take effect.](#phpinstall2) |
+|   11    | php installation  | [ PHP can only be installed on a Linux operating system.](#phpinstall3) |
+|   12    | php installation  | [ After installing PHP, you can immediately start running PHP scripts without restarting the server.](#phpinstall4) |
+|   13    | php installation  | [ Which of the following are steps in the PHP installation process ?](#phpinstall5) |
+|   14    | php installation  | [ Which of the following are requirements for installing PHP ?](#phpinstall6) |
+|   15    | php installation  | [ You have been asked to set up a local development environment for PHP.What steps would you take ?](#phpinstall7) |
+|   16    | local development environment     | [What is the software stack called that includes PHP, Apache, and MySQL for Windows?](#local1)           |
+|   17    | local development environment     | [Which of the following software stacks include PHP?](#local2)           |
+|   18    | php syntax  | [PHP scripts are enclosed within ______ tags.](#phpsyntax1) |
+|   19    | php variable     | [How are variables in PHP declared ?](#var1)           |
+|   20    | php variable     | [In PHP, a variable name must start with a ______ followed by the name of the variable.](#var2)                  |
+|   21    | php variable     | [PHP is case -sensitive for variable names.](#var3)                      |
+|   22    | php variable     | [In PHP, variable names can start with a number.](#var4)                      |
+|   23    | php variable    | [Which of the following are valid PHP variable names ?](#var5)              |
+|   24    | php variable  | [You need to declare a variable in PHP to store a user's age. How would you do this?](#var6)            |
+|   25    | php variable     | [What is the scope of a variable that is declared within a PHP function?](#var7)           |
+|   26    | php variable           | [What keyword is used in PHP to access a global variable inside a function?](#var8) |
+|   27    | php variable           | [Which type of variable in PHP is accessible anywhere in the script ?](#var9) |
+|   28    | php variable           | [A variable declared within a function in PHP has a ______ scope.](#var10) |
+|   29    | php variable           | [The ______ keyword is used in PHP to make a local variable accessible globally.](#var11) |
+|   30    | php variable           | [ A variable declared outside all functions in PHP is considered to have a ______ scope.](#var12) |
+|   31    | php variable           | [ In PHP, variables declared inside a function can be accessed outside of that function.](#var13) |
+|   32    | php variable           | [ PHP uses the global keyword to make a local variable have global scope.](#var14) |
+|   33    | php data types           | [ What data type would be used in PHP to store a numeric value without a decimal ?](#datatype1) |
+|   34    | php data types  | [ What is the data type in PHP that is used to store a sequence of characters ?](#datatype2) |
+|   35    | php data types  | [ Which PHP data type can hold multiple values ?](#datatype3) |
+|   36    | php data types  | [ In PHP, a boolean data type can hold one of two values: ______ or ______.](#datatype4) |
+|   37    | php data types  | [ The ______ data type in PHP is used to store a number with a decimal point.](#datatype5) |
+|   38    | php data types  | [ An array in PHP is a type of ______ data type.](#datatype6) |
+|   39    | php data types  | [ PHP supports eight primitive data types.](#datatype7) |
+|   40    | php data types  | [ In PHP, a string can contain letters, numbers, and special characters.](#datatype8) |
+|   41    | php data types  | [ In PHP, an array can only hold values of the same data type.](#datatype9) |
+|   42    | php data types  | [ Which of the following are valid data types in PHP ?](#datatype10) |
+|   43    | php data types  | [ Which of the following PHP data types can hold multiple values?](#datatype11) |
+|   44    | php data types  | [ Which of the following are true about PHP data types ?](#datatype12) |
+|   45    | php data types  | [ You need to store a user's age in your PHP script. What data type would you use and why?](#datatype13) |
+|   46    | php data types  | [ You have a variable in your PHP script that needs to hold a simple true or false value.What data type would you use ?](#datatype14) |
+|   47    | php data types  | [ Which PHP function is used to check if a variable is of a specified type ?](#datatype15) |
+|   48    | php data types  | [ You have a PHP script and you need to check if a variable is of a specified type.How would you do this ?](#datatype16) |
+|   49    | php and html  | [How can PHP and HTML interact ?](#phpandhtml1) |
+|   50    | php and html  | [Is it possible to submit a form with a dedicated button?](#phpandhtml2) |
 
 
 
