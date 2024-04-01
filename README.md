@@ -5,7 +5,7 @@
 |   3    | php variable     | [PHP is case -sensitive for variable names.](#var3)                      |
 |   4    | php variable     | [In PHP, variable names can start with a number.](#var4)                      |
 |   5    | php variable    | [Which of the following are valid PHP variable names ?](#var5)              |
-|   6    | php variable  | You need to declare a variable in PHP to store a user's age. How would you do this?](#var6)            |
+|   6    | php variable  | [You need to declare a variable in PHP to store a user's age. How would you do this?](#var6)            |
 |   7    | Contributing     | [How can I contribute to this project?](#question6)           |
 |   8    | License          | [What are the licensing terms for this project?](#question7) 
 
