@@ -4,8 +4,8 @@
 |   2    | php variable     | [In PHP, a variable name must start with a ______ followed by the name of the variable.](#var2)                  |
 |   3    | php variable     | [PHP is case -sensitive for variable names.](#var3)                      |
 |   4    | php variable     | [In PHP, variable names can start with a number.](#var4)                      |
-|   5    | Configuration    | [What configurations are available?](#question4)              |
-|   6    | Troubleshooting  | [How do I troubleshoot common issues?](#question5)            |
+|   5    | php variable    | [Which of the following are valid PHP variable names ?](#var5)              |
+|   6    | php variable  | You need to declare a variable in PHP to store a user's age. How would you do this?](#var6)            |
 |   7    | Contributing     | [How can I contribute to this project?](#question6)           |
 |   8    | License          | [What are the licensing terms for this project?](#question7) 
 
@@ -21,4 +21,9 @@ PHP is indeed case -sensitive for variable names.This means that $var and $Var w
 
 ## var4
 In PHP, variable names cannot start with a number.They must begin with a letter or an underscore, followed by any number of letters, numbers, or underscores.While the rules for variable names in PHP are somewhat flexible, they do have these constraints to maintain the clarity and readability of the code.Learn more: https://www.php.net/manual/en/language.variables.basics.php
+## var5
+In PHP, variable names must start with a letter or an underscore(_), followed by any number of letters, numbers, or underscores.So, $my_var and $_VAR are valid variable names, but $123abc is not because it starts with a number.Learn more: https://www.php.net/manual/en/language.variables.basics.php
+## var6
+In PHP, variables are declared with a dollar sign($) followed by the variable name.So, to declare a variable to store a user's age, you would write $userAge = 21; PHP is a loosely typed language, which means that you don't have to declare the data type of a variable when you create it.Learn more: https://www.php.net/manual/en/language.variables.basics.php
+
 
