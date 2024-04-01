@@ -55,6 +55,13 @@
 |   50    | php and html  | [Is it possible to submit a form with a dedicated button?](#phpandhtml2) |
 
 
+## What does PHP stand for?
+###### phpgeneralknowledge1
+PHP originally stood for "Personal Home Page", but it now stands for "PHP: Hypertext Preprocessor", a recursive backronym. This change reflects the shift in PHP's capabilities from being a simple HTML home page builder to a fully-fledged web scripting language. For more details, visit: https://www.php.net/manual/en/faq.general.php#faq.general.name
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
 
 ## What is the software stack called that includes PHP, Apache, and MySQL for Windows?
 ###### local1
@@ -313,11 +320,6 @@ PHP offers numerous benefits for web development. As a server-side scripting lan
 
 **[⬆ Back to Top](#table-of-contents)**
 
-## What does PHP stand for?
-###### phpgeneralknowledge1
-PHP originally stood for "Personal Home Page", but it now stands for "PHP: Hypertext Preprocessor", a recursive backronym. This change reflects the shift in PHP's capabilities from being a simple HTML home page builder to a fully-fledged web scripting language. For more details, visit: https://www.php.net/manual/en/faq.general.php#faq.general.name
-
-**[⬆ Back to Top](#table-of-contents)**
 
 ## PHP is primarily used for which type of development ?
 ###### webdevelopmentwithphp1
