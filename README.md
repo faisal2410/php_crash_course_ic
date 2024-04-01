@@ -1,6 +1,6 @@
 # PHP Conceptual / Interview Questions & Explanation
 
-### Table of Contents
+### Table of Contents(#table-of-contents)
 | Number | Keyword          | Question                                        |
 |--------|------------------|-------------------------------------------------|
 |   1    | php variable     | [How are variables in PHP declared ?](#var1)           |
