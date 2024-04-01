@@ -13,5 +13,5 @@
 
 In PHP, variables are declared by preceding the variable name with a dollar sign($).For example, $variable.PHP is a loosely typed language, which means that you don't have to declare the data type of a variable when you create it. Learn more: https://www.php.net/manual/en/language.variables.basics.php
 
-##var2
+## var2
 In PHP, variable names must start with a dollar sign($), followed by the name of the variable.The variable name is case -sensitive.Variable names follow certain rules: they must begin with a letter or the underscore character; they can't begin with a number; they can contain alpha-numeric characters and underscores. Learn more: https://www.php.net/manual/en/language.variables.basics.php
