@@ -8,6 +8,7 @@
 |   6    | php variable  | [You need to declare a variable in PHP to store a user's age. How would you do this?](#var6)            |
 |   7    | php variable     | [What is the scope of a variable that is declared within a PHP function?](#var7)           |
 |   8    | php variable           | [What keyword is used in PHP to access a global variable inside a function?](#var8) |
+|   9    | php variable           | [Which type of variable in PHP is accessible anywhere in the script ?](#var9) |
 
 
 ## How are variables in PHP declared ?
@@ -38,4 +39,8 @@ In PHP, a variable that is declared within a function has a local scope.This mea
 ## What keyword is used in PHP to access a global variable inside a function?
 ###### var8
 To access a global variable inside a PHP function, the global keyword is used.By declaring global followed by the variable name within the function, you can access and modify the value of the global variable.This allows you to work with global variables within the function's local scope. Learn more: https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.global
+## Which type of variable in PHP is accessible anywhere in the script ?
+###### var9
+In PHP, a global variable is accessible anywhere in the script.It can be accessed from within functions, outside functions, and across different files.Global variables have a global scope, meaning they can be accessed and modified from any part of the script.However, it's generally recommended to use global variables sparingly and follow good programming practices to avoid potential issues. Learn more: https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.global
+
 
