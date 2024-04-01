@@ -1,4 +1,4 @@
-| # | Section             |
+| No  | Question             |
 |---|---------------------|
 | 1 | [Introduction](#introduction) |
 | 2 | [Installation](#installation) |
