@@ -15,6 +15,7 @@
 ## How are variables in PHP declared ?
 ###### var1
 In PHP, variables are declared by preceding the variable name with a dollar sign($).For example, $variable.PHP is a loosely typed language, which means that you don't have to declare the data type of a variable when you create it. Learn more: https://www.php.net/manual/en/language.variables.basics.php
+
 **[⬆ Back to Top](#table-of-contents)**
 ## In PHP, a variable name must start with a ______ followed by the name of the variable.
 ###### var2
