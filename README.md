@@ -28,6 +28,7 @@
 |   23    | php data types  | [ PHP supports eight primitive data types.](#datatype7) |
 |   24    | php data types  | [ In PHP, a string can contain letters, numbers, and special characters.](#datatype8) |
 |   25    | php data types  | [ In PHP, an array can only hold values of the same data type.](#datatype9) |
+|   26    | php data types  | [ Which of the following are valid data types in PHP ?](#datatype10) |
 
 
 ## What is the software stack called that includes PHP, Apache, and MySQL for Windows?
@@ -175,6 +176,11 @@ This statement is true.In PHP, a string can contain letters, numbers, special ch
 ## In PHP, an array can only hold values of the same data type.
 ###### datatype9
 This statement is false.In PHP, an array can hold values of different data types.PHP allows you to store elements of different data types, such as integers, floats, strings, or even other arrays, within the same array variable.This flexibility makes arrays powerful and versatile for managing collections of related data.Learn more: https://www.php.net/manual/en/language.types.array.php
+
+## Which of the following are valid data types in PHP ?
+###### datatype10
+All of the given options are valid data types in PHP.PHP supports various data types, including integer(int), boolean, float, string, array, object, resource, and null.These data types are used for storing and manipulating different kinds of data in PHP scripts.Learn more: https://www.php.net/manual/en/language.types.php
+
 
 
 
