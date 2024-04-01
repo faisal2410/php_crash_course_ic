@@ -1,6 +1,6 @@
-## Question 1: What data type would be used in PHP to store a numeric value without a decimal ?
+## Question 1: What data type would be used in PHP to store a numeric value without a decimal ?(#datatype1)
     
-###### Explanation
+###### datatype1
  In PHP, the int data type is used to store numeric values without a decimal.It can hold positive and negative whole numbers, including zero.Integers are used to perform mathematical operations and represent whole quantities in PHP.Learn more: https://www.php.net/manual/en/language.types.integer.php
 
 ## Question 2: What is the data type in PHP that is used to store a sequence of characters ?
