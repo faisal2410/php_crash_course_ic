@@ -50,6 +50,9 @@
 |   45    | web development with php  | [Which of the following are common uses of PHP ?](#webdevelopmentwithphp3) |
 |   46    | web development with php  | [Imagine you are tasked with developing a dynamic website that interacts with a database.Would PHP be a suitable choice for this task ? Why or why not ?](#webdevelopmentwithphp4) |
 |   47    | php and html  | [How can PHP and HTML interact ?](#phpandhtml1) |
+|   48    | php and html  | [Is it possible to submit a form with a dedicated button?](#phpandhtml2) |
+|   49    | php features  | [Which of the following are features of PHP?](#phpfeatures1) |
+|   50    | php syntax  | [PHP scripts are enclosed within ______ tags.](#phpsyntax1) |
 
 
 
@@ -351,6 +354,36 @@ While PHP is primarily used for creating dynamic web pages, it can also be used 
 PHP and HTML can interact by embedding PHP code within HTML using the <?php ?> tags. This allows you to dynamically generate HTML content by executing PHP code. PHP can be used to generate dynamic content, retrieve data from databases, handle form submissions, and more. By combining PHP and HTML, you can create dynamic and interactive web pages.
 
  **[⬆ Back to Top](#table-of-contents)**
+
+ ## Is it possible to submit a form with a dedicated button?
+  ###### phpandhtml2
+
+  Yes, it is possible to submit a form with a dedicated button using the <button> element with the type="submit" attribute. This allows you to have a button specifically dedicated to form submission. Learn more: http://www.w3schools.com/tags/tag_button.asp
+
+   **[⬆ Back to Top](#table-of-contents)**
+
+   ## Which of the following are features of PHP?
+   ###### phpfeatures1
+   PHP provides a vast amount of built-in functions that help developers avoid having to write lengthy scripts to perform common operations. This feature is one of the factors that make PHP a preferred language for web development. Learn more: https://www.php.net/manual/en/funcref.php
+
+   **[⬆ Back to Top](#table-of-contents)**
+
+   ## PHP scripts are enclosed within ______ tags.
+   ###### phpsyntax1
+
+   PHP scripts are enclosed within <?php ... ?> tags. These tags can be inserted anywhere in the document. The PHP interpreter only reads the code inside these tags. Learn more: https://www.php.net/manual/en/language.basic-syntax.phptags.php
+
+   **[⬆ Back to Top](#table-of-contents)**
+
+   
+   
+   
+
+   
+   
+
+   
+  
 
 
 
