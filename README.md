@@ -7,7 +7,7 @@
 |   5    | php variable    | [Which of the following are valid PHP variable names ?](#var5)              |
 |   6    | php variable  | [You need to declare a variable in PHP to store a user's age. How would you do this?](#var6)            |
 |   7    | php variable     | [What is the scope of a variable that is declared within a PHP function?](#var7)           |
-|   8    | php variable           | [What keyword is used in PHP to access a global variable inside a function?](#var8) 
+|   8    | php variable           | [What keyword is used in PHP to access a global variable inside a function?](#var8) |
 
 
 ## How are variables in PHP declared ?
