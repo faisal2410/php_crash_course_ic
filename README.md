@@ -20,6 +20,8 @@
 |   15    | php variable           | [ In PHP, variables declared inside a function can be accessed outside of that function.](#var13) |
 |   16    | php variable           | [ PHP uses the global keyword to make a local variable have global scope.](#var14) |
 |   17    | php data types           | [ What data type would be used in PHP to store a numeric value without a decimal ?](#datatype1) |
+|   18    | php data types           | [ What is the data type in PHP that is used to store a sequence of characters ?](#datatype2) |
+
 
 ## What is the software stack called that includes PHP, Apache, and MySQL for Windows?
 ###### local1
@@ -116,6 +118,14 @@ The statement is false. In PHP, the global keyword is used to access and modify 
 In PHP, the int data type is used to store numeric values without a decimal.It can hold positive and negative whole numbers, including zero.Integers are used to perform mathematical operations and represent whole quantities in PHP.Learn more: https://www.php.net/manual/en/language.types.integer.php
 
 **[⬆ Back to Top](#table-of-contents)**
+
+## What is the data type in PHP that is used to store a sequence of characters ?
+###### datatype2
+
+In PHP, the string data type is used to store a sequence of characters.It can hold alphanumeric characters, symbols, and special characters.Strings are commonly used to represent text or data in PHP.They can be enclosed in single quotes('') or double quotes("") in PHP.Learn more: https://www.php.net/manual/en/language.types.string.php
+
+
+
 
 
 
