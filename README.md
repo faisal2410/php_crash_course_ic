@@ -45,6 +45,10 @@
 |   40    | php history  | [ PHP was originally created by ______ in the year ______.](#phphistory1) |
 |   41    | php benefits  | [ You have been asked to explain the benefits of using PHP for web development to a potential client. What would you say?](#phpbenefits1) |
 |   42    | php general knowledge  | [ What does PHP stand for?](#phpgeneralknowledge1) |
+|   43    | web development with php  | [PHP is primarily used for which type of development ?](#webdevelopmentwithphp1) |
+|   44    | web development with php  | [PHP can be used to develop static web pages.](#webdevelopmentwithphp2) |
+|   45    | web development with php  | [Which of the following are common uses of PHP ?](#webdevelopmentwithphp3) |
+|   46    | web development with php  | [Imagine you are tasked with developing a dynamic website that interacts with a database.Would PHP be a suitable choice for this task ? Why or why not ?](#webdevelopmentwithphp4) |
 
 
 
@@ -311,6 +315,36 @@ PHP offers numerous benefits for web development. As a server-side scripting lan
 PHP originally stood for "Personal Home Page", but it now stands for "PHP: Hypertext Preprocessor", a recursive backronym. This change reflects the shift in PHP's capabilities from being a simple HTML home page builder to a fully-fledged web scripting language. For more details, visit: https://www.php.net/manual/en/faq.general.php#faq.general.name
 
 **[⬆ Back to Top](#table-of-contents)**
+
+## PHP is primarily used for which type of development ?
+###### webdevelopmentwithphp1
+
+PHP is primarily used for server - side web development.Unlike static HTML, PHP can interact with databases, manage cookies, process forms, and dynamically generate HTML content.Its integration with various database systems and its ability to easily handle dynamic content makes it a go - to language for web development.To learn more, visit: https://www.php.net/manual/en/intro-whatis.php
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## PHP can be used to develop static web pages.
+###### webdevelopmentwithphp2
+While PHP is primarily used for creating dynamic web pages, it can also be used to create static web pages.Learn more: https://www.php.net/manual/en/intro-whatcando.php
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Which of the following are common uses of PHP ?
+    
+###### webdevelopmentwithphp3
+ While PHP can be used for a variety of tasks, one of its most common uses is web scraping, where PHP scripts can be written to automatically gather data from web pages.Learn more: https://www.php.net/manual/en/book.dom.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+## Imagine you are tasked with developing a dynamic website that interacts with a database.Would PHP be a suitable choice for this task ? Why or why not ?
+    
+###### webdevelopmentwithphp4
+ PHP is a server-side scripting language designed primarily for web development. It has strong capabilities for database interactions, making it a suitable choice for developing a dynamic website that interacts with a database. Learn more: https://www.php.net/manual/en/intro-whatis.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+
+
 
 
 
