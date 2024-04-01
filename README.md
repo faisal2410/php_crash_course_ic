@@ -35,6 +35,7 @@
 |   30    | php data types  | [ You have a variable in your PHP script that needs to hold a simple true or false value.What data type would you use ?](#datatype14) |
 |   31    | php data types  | [ Which PHP function is used to check if a variable is of a specified type ?](#datatype15) |
 |   32    | php data types  | [ You have a PHP script and you need to check if a variable is of a specified type.How would you do this ?](#datatype16) |
+|   33    | php installation  | [ On which of the following operating systems can PHP be installed ?](#phpinstall1) |
 
 
 ## What is the software stack called that includes PHP, Apache, and MySQL for Windows?
@@ -236,6 +237,11 @@ The PHP function used to check if a variable is of a specified type is is_type()
 To check if a variable is of a specified type in PHP, you can use the is_type() function. This function allows you to verify whether a variable belongs to a specific data type, such as string, integer, float, boolean, or array. It returns a boolean value indicating whether the variable matches the specified type. For further information, see: http://php.net/manual/en/function.is-string.php, http://php.net/manual/en/function.is-int.php, http://php.net/manual/en/function.is-float.php, http://php.net/manual/en/function.is-bool.php, http://php.net/manual/en/function.is-array.php
 
 **[⬆ Back to Top](#table-of-contents)**
+
+## On which of the following operating systems can PHP be installed ?
+###### phpinstall1
+PHP is cross - platform, which means it can be installed on multiple operating systems including Linux, Windows, and macOS.This is one of the reasons for PHP's widespread use, as developers aren't limited to a specific OS.It can be installed standalone or as part of a package like LAMP(Linux), WAMP(Windows), or MAMP(macOS).Learn more: https://www.php.net/manual/en/install.php
+
 
 
 
