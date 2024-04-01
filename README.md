@@ -49,6 +49,7 @@
 |   44    | web development with php  | [PHP can be used to develop static web pages.](#webdevelopmentwithphp2) |
 |   45    | web development with php  | [Which of the following are common uses of PHP ?](#webdevelopmentwithphp3) |
 |   46    | web development with php  | [Imagine you are tasked with developing a dynamic website that interacts with a database.Would PHP be a suitable choice for this task ? Why or why not ?](#webdevelopmentwithphp4) |
+|   47    | php and html  | [How can PHP and HTML interact ?](#phpandhtml1) |
 
 
 
@@ -342,6 +343,15 @@ While PHP is primarily used for creating dynamic web pages, it can also be used 
  PHP is a server-side scripting language designed primarily for web development. It has strong capabilities for database interactions, making it a suitable choice for developing a dynamic website that interacts with a database. Learn more: https://www.php.net/manual/en/intro-whatis.php
 
  **[⬆ Back to Top](#table-of-contents)**
+
+ ## How can PHP and HTML interact ?
+
+ ###### phpandhtml1
+ 
+PHP and HTML can interact by embedding PHP code within HTML using the <?php ?> tags. This allows you to dynamically generate HTML content by executing PHP code. PHP can be used to generate dynamic content, retrieve data from databases, handle form submissions, and more. By combining PHP and HTML, you can create dynamic and interactive web pages.
+
+ **[⬆ Back to Top](#table-of-contents)**
+
 
 
 
