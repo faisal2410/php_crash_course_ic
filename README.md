@@ -1,6 +1,6 @@
 | Number | Keyword          | Question                                        |
 |--------|------------------|-------------------------------------------------|
-|   1    | php variable     | [How are variables in PHP declared ?](#var1)           |
+|   1    | php variable     | [How are variables in PHP declared ?](#How are variables in PHP declared ?)           |
 |   2    | php variable     | [In PHP, a variable name must start with a ______ followed by the name of the variable.](#var2)                  |
 |   3    | php variable     | [PHP is case -sensitive for variable names.](#var3)                      |
 |   4    | php variable     | [In PHP, variable names can start with a number.](#var4)                      |
@@ -10,7 +10,7 @@
 |   8    | php variable           | [What keyword is used in PHP to access a global variable inside a function?](#var8) 
 
 
-## var1
+## How are variables in PHP declared ?
 
 In PHP, variables are declared by preceding the variable name with a dollar sign($).For example, $variable.PHP is a loosely typed language, which means that you don't have to declare the data type of a variable when you create it. Learn more: https://www.php.net/manual/en/language.variables.basics.php
 
