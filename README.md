@@ -19,6 +19,7 @@
 |   14    | php variable           | [ A variable declared outside all functions in PHP is considered to have a ______ scope.](#var12) |
 |   15    | php variable           | [ In PHP, variables declared inside a function can be accessed outside of that function.](#var13) |
 |   16    | php variable           | [ PHP uses the global keyword to make a local variable have global scope.](#var14) |
+|   17    | php data types           | [ What data type would be used in PHP to store a numeric value without a decimal ?](#datatype1) |
 
 ## What is the software stack called that includes PHP, Apache, and MySQL for Windows?
 ###### local1
@@ -110,6 +111,11 @@ The statement is false. In PHP, the global keyword is used to access and modify 
 
 **[⬆ Back to Top](#table-of-contents)**
 
+## What data type would be used in PHP to store a numeric value without a decimal ?
+###### datatype1
+In PHP, the int data type is used to store numeric values without a decimal.It can hold positive and negative whole numbers, including zero.Integers are used to perform mathematical operations and represent whole quantities in PHP.Learn more: https://www.php.net/manual/en/language.types.integer.php
+
+**[⬆ Back to Top](#table-of-contents)**
 
 
 
