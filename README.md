@@ -1,6 +1,6 @@
 # PHP Conceptual / Interview Questions & Explanation
 ## Keywords
-[PHP General Knowledge](#phpgeneralknowledge1)
+[PHP General Knowledge](#phpgeneralknowledge1) [PHP History](#phphistory1) [PHP Benefits](#phpbenefits1)
 
 ### Table of Contents
 | Number | Keyword          | Question                                        |
