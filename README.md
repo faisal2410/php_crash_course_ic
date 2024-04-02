@@ -152,6 +152,20 @@
 |   147    | php form validation  |[You have a PHP script and you need to display an error message if a required field is left empty.How would you do this ?](#phpformvalidation6) |
 |   148    | php form validation  |[In PHP forms, you can validate an email field using the filter_var() function with FILTER_VALIDATE_EMAIL as the ______.](#phpformvalidation7) |
 |   149    | php form validation  |[If a URL field in a PHP form does not validate, you can display an error message by ______.](#phpformvalidation8) |
+|   150    | php cookies  |[How can you set a cookie in PHP ?](#phpcookies1) |
+|   151    | php cookies  |[What PHP superglobal array holds the information about cookies ?](#phpcookies2) |
+|   152    | php cookies  |[How can you delete a cookie in PHP ?](#phpcookies3) |
+|   153    | php cookies  |[In PHP, you can set a cookie using the setcookie() function, which takes the name of the cookie, its value, and its expiration time as ______.](#phpcookies4) |
+|   154    | php cookies  |[You can access the cookie's information in PHP using the $_COOKIE ______ array.](#phpcookies5) |
+|   155    | php cookies  |[To delete a cookie in PHP, you can use the setcookie() function with an expiration date in the ______.](#phpcookies6) |
+|   156    | php cookies  |[Which of the following are ways to handle cookies in PHP ?](#phpcookies7) |
+|   157    | php cookies  |[What are some common uses of the $_COOKIE superglobal array in PHP ?](#phpcookies8) |
+|   158    | php cookies  |[What are some common practices in PHP cookie handling ?](#phpcookies9) |
+|   159    | php cookies  |[You are writing a PHP script and you need to set a cookie.How would you do this ?](#phpcookies10) |
+|   160    | php cookies  |[You have a PHP script and you need to access the information stored in a cookie.How would you do this ?](#phpcookies11) |
+|   161    | php cookies  |[You need to delete a cookie in your PHP script.How would you do this ?](#phpcookies12) |
+
+
 
 
 
@@ -1379,6 +1393,115 @@ The phpinfo() function can be used to check the installed version of PHP, among 
  If a URL field in a PHP form does not validate, you can display an error message by echoing an error message to the user. This can be done by using PHP's echo statement to output the error message directly on the webpage. This way, the user will be notified of the invalid URL input. For more information on error handling in PHP, you can visit: php.net/manual/en/function.echo.php
 
  **[⬆ Back to Top](#table-of-contents)**
+
+ 
+## How can you set a cookie in PHP ?
+    
+###### phpcookies1
+ In PHP, you can set a cookie using the setcookie() function. This function allows you to set the name, value, expiration time, path, domain, and other parameters for the cookie.Learn more: http://php.net/manual/en/function.setcookie.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+ 
+    
+## What PHP superglobal array holds the information about cookies ?
+    
+###### phpcookies2
+ The $_COOKIE superglobal array holds the information about cookies in PHP.It provides access to the values of cookies that have been sent in the HTTP request.For further information, refer to: http://php.net/manual/en/reserved.variables.cookies.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+ 
+
+## How can you delete a cookie in PHP ?
+    
+###### phpcookies3
+ To delete a cookie in PHP, you can use the setcookie() function with an expiration time in the past or set it to zero.This will invalidate the cookie and remove it from the user's browser. For more details, check: http://php.net/manual/en/function.setcookie.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+ 
+
+## In PHP, you can set a cookie using the setcookie() function, which takes the name of the cookie, its value, and its expiration time as ______.
+    
+###### phpcookies4
+ The setcookie() function in PHP takes the name of the cookie, its value, and its expiration time as arguments.These arguments allow you to define the properties of the cookie such as its name, value, and when it should expire.More information: http://php.net/manual/en/function.setcookie.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+ 
+
+## You can access the cookie's information in PHP using the $_COOKIE ______ array.
+
+###### phpcookies5
+ The cookie's information in PHP can be accessed using the $_COOKIE superglobal array. This array contains key-value pairs where the keys represent the names of the cookies and the values hold the corresponding cookie values. More details: http://php.net/manual/en/reserved.variables.cookies.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+ 
+
+## To delete a cookie in PHP, you can use the setcookie() function with an expiration date in the ______.
+    
+###### phpcookies6
+ To delete a cookie in PHP, you can use the setcookie() function and set the expiration date in the past.This causes the browser to discard the cookie, effectively deleting it.Additional information: http://php.net/manual/en/function.setcookie.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+ 
+
+## Which of the following are ways to handle cookies in PHP ?
+    
+###### phpcookies7
+ In PHP, there are multiple ways to handle cookies.The setcookie() function is used to set cookies, while the $_COOKIE superglobal array allows access to the cookie information.The header() function can also be used to set cookies, although it's less common. Storing cookies in a database is not a built-in method in PHP but can be done as a custom implementation.
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+ 
+
+## What are some common uses of the $_COOKIE superglobal array in PHP ?
+    
+###### phpcookies8
+ The $_COOKIE superglobal array in PHP is commonly used for various purposes.It can be used to retrieve stored user preferences, implement remember me functionality, track user sessions, and personalize website content based on previously set cookies.It provides a way to store and retrieve data associated with the user's browsing session.
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+ 
+
+## What are some common practices in PHP cookie handling ?
+    
+###### phpcookies9
+ When handling cookies in PHP, it's important to follow best practices. This includes sanitizing user input to prevent security vulnerabilities, setting secure and HTTP-only flags to enhance security, expiring cookies after a certain time to manage their lifespan, and encrypting sensitive cookie values to protect data privacy. These practices help ensure the proper handling and security of cookies in PHP applications.
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+ 
+
+## You are writing a PHP script and you need to set a cookie.How would you do this ?
+    
+###### phpcookies10
+ To set a cookie in PHP, you can use the setcookie() function. This function allows you to define the cookie name, value, expiration time, path, domain, and other parameters.By calling setcookie(), you can set the desired cookie in your PHP script.Refer to: http://php.net/manual/en/function.setcookie.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+ 
+
+## You have a PHP script and you need to access the information stored in a cookie.How would you do this ?
+    
+###### phpcookies11
+ To access the information stored in a cookie within a PHP script, you can use the $_COOKIE superglobal array.This array contains the names and values of the cookies sent by the client in the HTTP request.By accessing $_COOKIE['cookie_name'], you can retrieve the specific information stored in the cookie.See more at: http://php.net/manual/en/reserved.variables.cookies.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+ 
+
+## You need to delete a cookie in your PHP script.How would you do this ?
+    
+###### phpcookies12
+ To delete a cookie in PHP, you can use the setcookie() function with an expiration time in the past or set it to zero. This will invalidate the cookie and remove it from the user's browser. Alternatively, you can use the unset() function to remove a specific cookie value from the $_COOKIE superglobal array. More details: http://php.net/manual/en/function.setcookie.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+ 
 
  
  
