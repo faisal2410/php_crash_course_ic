@@ -39,9 +39,9 @@
 // php operators ✅
 // php output control
 // php pagination ✅
-// php password hashing
+// php password hashing ✅
 // php performance
-// php regular expressions
+// php regular expressions ✅
 // php security
 // php sessions and cookies ✅
 // php sessions ✅
