@@ -179,6 +179,7 @@
 |   174    | php sessions  |[You are writing a PHP script and you need to start a session.How would you do this ?](#phpsessions13) |
 |   175    | php sessions  |[You have a PHP script and you need to access the session variables.How would you do this ?](#phpsessions14) |
 |   176    | php sessions  |[You need to destroy a session in your PHP script.How would you do this ?](#phpsessions15) |
+|   177    | php sessions  |[What are the differences between cookies and sessions in PHP? When would you choose one over the other?](#phpsessions16) |
 
 
 
@@ -1653,6 +1654,17 @@ The phpinfo() function can be used to check the installed version of PHP, among 
 
 
  **[⬆ Back to Top](#table-of-contents)**
+
+
+ ##  What are the differences between cookies and sessions in PHP? When would you choose one over the other?
+
+###### phpsessions16
+ Cookies and sessions are mechanisms in PHP used for storing data across multiple page requests. Cookies are small text files that are stored on the client-side, while sessions are stored on the server. Cookies are suitable for storing small amounts of data and are sent with each request. Sessions can store larger amounts of data and are identified by a session ID. They are stored on the server and associated with a specific user. The choice between cookies and sessions depends on factors such as the type of data to be stored, security requirements, and the need for server-side data persistence. For more information, you can refer to the PHP documentation: http://php.net/manual/en/features.cookies.php, http://php.net/manual/en/features.sessions.php
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+ 
+
 
  
 
