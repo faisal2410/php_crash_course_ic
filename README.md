@@ -193,6 +193,7 @@
 |   188    | php constants  |[ You are writing a PHP script and you need to define a constant in a class. How would you do this ?](#phpconstants10) |
 |   189    | php constants  |[ You have a PHP script and you need to access a constant of a class. How would you do this ?](#phpconstants11) |
 |   190    | php constants  |[ You need to understand if the value of a class constant in PHP can be changed after it is defined.What would be your conclusion ?](#phpconstants12) |
+|   191    | php anonymous function  |[Explain the concept of anonymous functions (closures) in PHP. How are they used and what are their advantages?](#phpanonymousfunction1) |
 
 
 
@@ -1792,6 +1793,15 @@ The phpinfo() function can be used to check the installed version of PHP, among 
  The value of a class constant in PHP cannot be changed after it is defined. Once a constant is assigned a specific value, it remains the same throughout the execution of the script. Constants are considered as read-only values. Attempting to modify a constant's value will result in a runtime error. To maintain the immutability of constant values, it is recommended to define them with the desired value and avoid any attempts to modify them later. To know more, refer to: http://php.net/manual/en/language.constants.php
 
  **[⬆ Back to Top](#table-of-contents)**
+
+ ##  Explain the concept of anonymous functions (closures) in PHP. How are they used and what are their advantages?
+
+###### phpanonymousfunction1
+ Anonymous functions, also known as closures, are a powerful feature in PHP that allows you to define functions without a specific name. They are commonly used as callback functions or to create small, self-contained pieces of code. Anonymous functions can access variables from their surrounding scope, even after they have gone out of scope, which is known as "closing over" variables. Their advantages include code encapsulation, code reuse, and the ability to create flexible and dynamic code structures. For more information, you can refer to the PHP documentation: http://php.net/manual/en/functions.anonymous.php
+
+  **[⬆ Back to Top](#table-of-contents)**
+
+  
 
  
 
