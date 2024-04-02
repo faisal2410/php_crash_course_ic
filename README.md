@@ -300,116 +300,118 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-
+###### phpfeatures1
  ## Which of the following are features of PHP?
-   ###### phpfeatures1
+   
  >>  PHP provides a vast amount of built-in functions that help developers avoid having to write lengthy scripts to perform common operations. This feature is one of the factors that make PHP a preferred language for web development. Learn more: https://www.php.net/manual/en/funcref.php
 
    **[⬆ Back to Top](#table-of-contents)**
-
-## PHP is primarily used for which type of development ?
 ###### webdevelopmentwithphp1
+## PHP is primarily used for which type of development ?
+
 
 >> PHP is primarily used for server - side web development.Unlike static HTML, PHP can interact with databases, manage cookies, process forms, and dynamically generate HTML content.Its integration with various database systems and its ability to easily handle dynamic content makes it a go - to language for web development.To learn more, visit: https://www.php.net/manual/en/intro-whatis.php
 
 **[⬆ Back to Top](#table-of-contents)**
-
-## PHP can be used to develop static web pages.
 ###### webdevelopmentwithphp2
+## PHP can be used to develop static web pages.
+
 >> While PHP is primarily used for creating dynamic web pages, it can also be used to create static web pages.Learn more: https://www.php.net/manual/en/intro-whatcando.php
 
 **[⬆ Back to Top](#table-of-contents)**
-
+###### webdevelopmentwithphp3
 ## Which of the following are common uses of PHP ?
     
-###### webdevelopmentwithphp3
+
  >> While PHP can be used for a variety of tasks, one of its most common uses is web scraping, where PHP scripts can be written to automatically gather data from web pages.Learn more: https://www.php.net/manual/en/book.dom.php
 
  **[⬆ Back to Top](#table-of-contents)**
-
+###### webdevelopmentwithphp4
 ## Imagine you are tasked with developing a dynamic website that interacts with a database.Would PHP be a suitable choice for this task ? Why or why not ?
     
-###### webdevelopmentwithphp4
+
  >> PHP is a server-side scripting language designed primarily for web development. It has strong capabilities for database interactions, making it a suitable choice for developing a dynamic website that interacts with a database. Learn more: https://www.php.net/manual/en/intro-whatis.php
 
  **[⬆ Back to Top](#table-of-contents)**
- 
+ ###### phpinstall1
 ## On which of the following operating systems can PHP be installed ?
-###### phpinstall1
+
 >> PHP is cross - platform, which means it can be installed on multiple operating systems including Linux, Windows, and macOS.This is one of the reasons for PHP's widespread use, as developers aren't limited to a specific OS.It can be installed standalone or as part of a package like LAMP(Linux), WAMP(Windows), or MAMP(macOS).Learn more: https://www.php.net/manual/en/install.php
 
 **[⬆ Back to Top](#table-of-contents)**
-
-## After installing PHP, you need to restart the ______ to make sure the changes take effect.
 ###### phpinstall2
+## After installing PHP, you need to restart the ______ to make sure the changes take effect.
+
 
 >> After installing PHP, especially when installing as a module for a web server like Apache or Nginx, you need to restart the web server to ensure that it recognizes and implements the changes.This is because the server needs to load the PHP module into its memory space to be able to process PHP files.Learn more: https://www.php.net/manual/en/install.general.php
 
 **[⬆ Back to Top](#table-of-contents)**
-
-## PHP can only be installed on a Linux operating system.
 ###### phpinstall3
+## PHP can only be installed on a Linux operating system.
+
 >> PHP is cross - platform, meaning it can be installed on multiple operating systems, not just Linux.This includes Windows, macOS, and more.Its cross - platform compatibility is one of the reasons for PHP's widespread use. Learn more: https://www.php.net/manual/en/install.php
 
 **[⬆ Back to Top](#table-of-contents)**
-
-## After installing PHP, you can immediately start running PHP scripts without restarting the server.
 ###### phpinstall4
+## After installing PHP, you can immediately start running PHP scripts without restarting the server.
+
 >> After installing PHP, especially when PHP is installed as a module for a web server like Apache or Nginx, you usually need to restart the web server.This is so the server can load the PHP module into its memory space, which is necessary for processing PHP files.Learn more: https://www.php.net/manual/en/install.general.php
 
 **[⬆ Back to Top](#table-of-contents)**
-
-## Which of the following are steps in the PHP installation process ?
 ###### phpinstall5
+## Which of the following are steps in the PHP installation process ?
+
 >> The process of installing PHP involves several steps, which may vary depending on the operating system and the specifics of the local environment.However, downloading the PHP source code is a common first step in the process.You may also need to configure your web server to handle PHP files, and update your system's PATH environment variable. Learn more: https://www.php.net/manual/en/install.php
 
 **[⬆ Back to Top](#table-of-contents)**
-
-## Which of the following are requirements for installing PHP ?
 ###### phpinstall6
+## Which of the following are requirements for installing PHP ?
+
 
 >> To install PHP, a web server is required as PHP is primarily a server - side scripting language.While having an internet connection can be helpful, especially for downloading the necessary software or accessing documentation, it is not strictly necessary for the installation itself.PHP can be installed on a variety of operating systems, not just Linux.Learn more: https://www.php.net/manual/en/install.php
 
 **[⬆ Back to Top](#table-of-contents)**
-
-## You have been asked to set up a local development environment for PHP.What steps would you take ?
 ###### phpinstall7
+## You have been asked to set up a local development environment for PHP.What steps would you take ?
+
 >> Setting up a local development environment for PHP involves several steps. You would typically start by installing a text editor or IDE to write your PHP scripts. Then, you'd install a software stack like WAMP, MAMP, or LAMP, which includes a web server, a database system, and the PHP interpreter. Finally, you would create a new PHP file and save it in the web server's root directory. Learn more: https://www.php.net/manual/en/install.general.php
 
 **[⬆ Back to Top](#table-of-contents)**
 
-
-## What is the software stack called that includes PHP, Apache, and MySQL for Windows?
 ###### local1
+## What is the software stack called that includes PHP, Apache, and MySQL for Windows?
+
 >> The software stack that includes PHP, Apache, and MySQL for Windows is known as WAMP. "WAMP" stands for Windows, Apache, MySQL, and PHP. This stack provides developers with the necessary environment to test web apps locally before deploying them. Apache is the web server, MySQL is the database, and PHP is the scripting language. Learn more: http://www.wampserver.com/en/
 
 **[⬆ Back to Top](#table-of-contents)**
-
-## Which of the following software stacks include PHP?
 ###### local2
+## Which of the following software stacks include PHP?
+
 >> WAMP is a software stack for Windows that includes PHP. WAMP stands for Windows, Apache, MySQL, and PHP. Apache is the web server, MySQL is the database, and PHP is the scripting language. It's a popular choice for developers working in a Windows environment. Other software stacks like MEAN, Ruby on Rails, and Django use different programming languages. Learn more: http://www.wampserver.com/en/
 
 **[⬆ Back to Top](#table-of-contents)**
-
+###### phpsyntax1
    ## PHP scripts are enclosed within ______ tags.
-   ###### phpsyntax1
+   
 
  >>  PHP scripts are enclosed within <?php ... ?> tags. These tags can be inserted anywhere in the document. The PHP interpreter only reads the code inside these tags. Learn more: https://www.php.net/manual/en/language.basic-syntax.phptags.php
 
    **[⬆ Back to Top](#table-of-contents)**
-
-## How are variables in PHP declared ?
 ###### var1
+## How are variables in PHP declared ?
+
 >> In PHP, variables are declared by preceding the variable name with a dollar sign($).For example, $variable.PHP is a loosely typed language, which means that you don't have to declare the data type of a variable when you create it. Learn more: https://www.php.net/manual/en/language.variables.basics.php
 
 **[⬆ Back to Top](#table-of-contents)**
-## In PHP, a variable name must start with a ______ followed by the name of the variable.
 ###### var2
+## In PHP, a variable name must start with a ______ followed by the name of the variable.
+
 >> In PHP, variable names must start with a dollar sign($), followed by the name of the variable.The variable name is case -sensitive.Variable names follow certain rules: they must begin with a letter or the underscore character; they can't begin with a number; they can contain alpha-numeric characters and underscores. Learn more: https://www.php.net/manual/en/language.variables.basics.php
 
 **[⬆ Back to Top](#table-of-contents)**
-## PHP is case -sensitive for variable names.
 ###### var3
+## PHP is case -sensitive for variable names.
+
 >> PHP is indeed case -sensitive for variable names.This means that $var and $Var would be considered two separate variables.On the other hand, PHP function names are not case -sensitive.This is one of the many aspects that can make PHP tricky for beginners.Learn more: https://www.php.net/manual/en/language.variables.basics.php
 
 **[⬆ Back to Top](#table-of-contents)**
