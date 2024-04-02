@@ -1,6 +1,6 @@
 # PHP Conceptual / Interview Questions & Explanation
 ## Keywords
-[PHP General Knowledge](#phpgeneralknowledge1) ,  [PHP History](#phphistory1) ,  [PHP Benefits](#phpbenefits1) [Web Development With PHP](#webdevelopmentwithphp1) [PHP Installation](#phpinstall1) [Local Development Environment](#local1) [PHP Syntax](#phpsyntax1) [PHP Variable](#var1) [PHP Data Type](#datatype1) [PHP and HTML](#phpandhtml1)
+|[PHP General Knowledge](#phpgeneralknowledge1) |  [PHP History](#phphistory1) |  [PHP Benefits](#phpbenefits1) [Web Development With PHP](#webdevelopmentwithphp1) [PHP Installation](#phpinstall1) [Local Development Environment](#local1) [PHP Syntax](#phpsyntax1) [PHP Variable](#var1) [PHP Data Type](#datatype1) [PHP and HTML](#phpandhtml1)
 
 ### Table of Contents
 | Number | Keyword          | Question                                        |
