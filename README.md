@@ -1,6 +1,6 @@
 # PHP Conceptual / Interview Questions & Explanation
 ## Keywords ( Click the keyword for learning related concept)
-✅[PHP General Knowledge](#phpgeneralknowledge1)  ✅  [PHP History](#phphistory1) ✅  [PHP Benefits](#phpbenefits1) ✅ [Web Development With PHP](#webdevelopmentwithphp1) ✅ [PHP Installation](#phpinstall1) ✅ [Local Development Environment](#local1) ✅ [PHP Syntax](#phpsyntax1)  ✅[PHP Variable](#var1) ✅ [PHP Data Type](#datatype1) ✅[PHP and HTML](#phpandhtml1) ✅ [PHP and Javascript](#phpandjavascript1) ✅ [PHP String Manipulation](#phpstringmanipulation1) ✅ [PHP Function](#phpfunction1) ✅[PHP File Handling](#phpfilehandling1) ✅ [PHP Form Handling](#phpformhandling1) ✅ [PHP Superglobals](#phpsuperglobals1) ✅ [PHP Form Validation](#phpformvalidation1) ✅[PHP Cookies](#phpcookies1) ✅ [PHP Sessions](#phpsessions1) ✅ [PHP Operators](#phpoperators1) ✅ [PHP Constants](#phpconstants1) ✅[PHP OOP](#phpoop1) ✅ [PHP Abstract Classes](#phpabstractclasses1) ✅ [ PHP Interfaces](#phpinterfaces1) ✅ [PHP Namesapces](#phpnamespaces1) ✅ [PHP Data Validation and Sanitization](#phpdatavalidationandsanitization1) ✅[PHP Mail](#phpmail1) ✅ [PHP Autoloading](#phpautoloading1) ✅[PHP Image Handling](#phpimagehandling1) ✅[PHP Pagination](#phppagination1) ✅ [PHP Exceptions](#phpexceptions1)
+✅[PHP General Knowledge](#phpgeneralknowledge1)  ✅  [PHP History](#phphistory1) ✅  [PHP Benefits](#phpbenefits1) ✅ [Web Development With PHP](#webdevelopmentwithphp1) ✅ [PHP Installation](#phpinstall1) ✅ [Local Development Environment](#local1) ✅ [PHP Syntax](#phpsyntax1)  ✅[PHP Variable](#var1) ✅ [PHP Data Type](#datatype1) ✅[PHP and HTML](#phpandhtml1) ✅ [PHP and Javascript](#phpandjavascript1) ✅ [PHP String Manipulation](#phpstringmanipulation1) ✅ [PHP Function](#phpfunction1) ✅[PHP File Handling](#phpfilehandling1) ✅ [PHP Form Handling](#phpformhandling1) ✅ [PHP Superglobals](#phpsuperglobals1) ✅ [PHP Form Validation](#phpformvalidation1) ✅[PHP Cookies](#phpcookies1) ✅ [PHP Sessions](#phpsessions1) ✅ [PHP Operators](#phpoperators1) ✅ [PHP Constants](#phpconstants1) ✅[PHP OOP](#phpoop1) ✅ [PHP Abstract Classes](#phpabstractclasses1) ✅ [ PHP Interfaces](#phpinterfaces1) ✅ [PHP Namesapces](#phpnamespaces1) ✅ [PHP Data Validation and Sanitization](#phpdatavalidationandsanitization1) ✅[PHP Mail](#phpmail1) ✅ [PHP Autoloading](#phpautoloading1) ✅[PHP Image Handling](#phpimagehandling1) ✅[PHP Pagination](#phppagination1) ✅ [PHP Exceptions](#phpexceptions1) ✅[PHP Password Hashing](#phppasswordhashing1)
 
 ### Table of Contents
 | Number | Keyword          | Question                                        |
@@ -281,6 +281,7 @@
 |   274    | php Image Handling  |[What is the use of the function 'imagetypes()'?](#phpimagehandling2) |
 |   275    | php Pagination  |[How can you implement pagination in PHP for displaying large datasets? Discuss the techniques and considerations involved.](#phppagination1) |
 |   276    | php exceptions  |[How do you handle exceptions in PHP? Explain the try-catch-finally block.](#phpexceptions1) |
+|   277    | php password hashing  |[How can you implement secure password hashing in PHP ? Discuss the password_hash() and password_verify() functions.](#phppasswordhashing1) |
 
 
     
@@ -2615,6 +2616,14 @@
 >> In PHP, exceptions provide a way to handle runtime errors or exceptional situations gracefully. The try-catch-finally block allows you to handle exceptions by specifying the code that may throw an exception within the try block. If an exception is thrown, it can be caught and handled in the catch block. The finally block is optional and allows you to specify code that will be executed regardless of whether an exception was thrown or caught. This is useful for performing cleanup tasks. For more information, you can refer to the PHP documentation: http://php.net/manual/en/language.exceptions.php
 
 **[⬆ Back to Top](#table-of-contents)**
+
+###### phppasswordhashing1
+## How can you implement secure password hashing in PHP ? Discuss the password_hash() and password_verify() functions.
+    
+>> Secure password hashing in PHP is crucial for protecting user passwords. The password_hash() function is used to securely hash passwords using industry-standard algorithms such as bcrypt. It automatically handles the generation of a unique salt and multiple iterations, making the hashing process more secure. The password_verify() function is used to verify a user's entered password against the stored hash. By using these functions, you can significantly improve the security of user passwords and protect against common attacks such as rainbow table attacks. It is strongly recommended to use these functions instead of manual hashing techniques. For more information, you can refer to the PHP documentation: http://php.net/manual/en/function.password-hash.php, http://php.net/manual/en/function.password-verify.php
+
+**[⬆ Back to Top](#table-of-contents)**
+
 
 
 
