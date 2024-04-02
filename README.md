@@ -1,6 +1,6 @@
 # PHP Conceptual / Interview Questions & Explanation
 ## Keywords ( Click the keyword for learning related concept)
-✅[PHP General Knowledge](#phpgeneralknowledge1)  ✅  [PHP History](#phphistory1) ✅  [PHP Benefits](#phpbenefits1) ✅ [Web Development With PHP](#webdevelopmentwithphp1) ✅ [PHP Installation](#phpinstall1) ✅ [Local Development Environment](#local1) ✅ [PHP Syntax](#phpsyntax1)  ✅[PHP Variable](#var1) ✅ [PHP Data Type](#datatype1) ✅[PHP and HTML](#phpandhtml1) ✅ [PHP and Javascript](#phpandjavascript1) ✅ [PHP String Manipulation](#phpstringmanipulation1) ✅ [PHP Function](#phpfunction1) ✅[PHP File Handling](#phpfilehandling1) ✅ [PHP Form Handling](#phpformhandling1) ✅ [PHP Superglobals](#phpsuperglobals1) ✅ [PHP Form Validation](#phpformvalidation1) ✅[PHP Cookies](#phpcookies1) ✅ [PHP Sessions](#phpsessions1) ✅ [PHP Operators](#phpoperators1) ✅ [PHP Constants](#phpconstants1) ✅[PHP OOP](#phpoop1) ✅ [PHP Abstract Classes](#phpabstractclasses1) ✅ [ PHP Interfaces](#phpinterfaces1) ✅ [PHP Namesapces](#phpnamespaces1) ✅ [PHP Data Validation and Sanitization](#phpdatavalidationandsanitization1) ✅[PHP Mail](#phpmail1)
+✅[PHP General Knowledge](#phpgeneralknowledge1)  ✅  [PHP History](#phphistory1) ✅  [PHP Benefits](#phpbenefits1) ✅ [Web Development With PHP](#webdevelopmentwithphp1) ✅ [PHP Installation](#phpinstall1) ✅ [Local Development Environment](#local1) ✅ [PHP Syntax](#phpsyntax1)  ✅[PHP Variable](#var1) ✅ [PHP Data Type](#datatype1) ✅[PHP and HTML](#phpandhtml1) ✅ [PHP and Javascript](#phpandjavascript1) ✅ [PHP String Manipulation](#phpstringmanipulation1) ✅ [PHP Function](#phpfunction1) ✅[PHP File Handling](#phpfilehandling1) ✅ [PHP Form Handling](#phpformhandling1) ✅ [PHP Superglobals](#phpsuperglobals1) ✅ [PHP Form Validation](#phpformvalidation1) ✅[PHP Cookies](#phpcookies1) ✅ [PHP Sessions](#phpsessions1) ✅ [PHP Operators](#phpoperators1) ✅ [PHP Constants](#phpconstants1) ✅[PHP OOP](#phpoop1) ✅ [PHP Abstract Classes](#phpabstractclasses1) ✅ [ PHP Interfaces](#phpinterfaces1) ✅ [PHP Namesapces](#phpnamespaces1) ✅ [PHP Data Validation and Sanitization](#phpdatavalidationandsanitization1) ✅[PHP Mail](#phpmail1) ✅ [PHP Autoloading](#phpautoloading1)
 
 ### Table of Contents
 | Number | Keyword          | Question                                        |
@@ -276,6 +276,7 @@
 |   269    | php Mail  |[How do you handle errors when using mail functions in PHP ?](#phpmail9) |
 |   270    | php Mail  |[You are writing a PHP script and you need to send an email.How would you do this using mail functions ?](#phpmail10) |
 |   271    | php Mail  |[You have a PHP script and you are getting an error when trying to send an email.How would you troubleshoot this issue using mail functions?](#phpmail11) |
+|   272    | php Autoloading  |[What is the concept of autoloading in PHP? How does it work and how can you implement it in your code?](#phpautoloading1) |
 
     
 
@@ -2572,6 +2573,14 @@
 
 
 **[⬆ Back to Top](#table-of-contents)**
+
+###### phpautoloading1
+## What is the concept of autoloading in PHP? How does it work and how can you implement it in your code?
+
+>> Autoloading in PHP eliminates the need to manually include all the required class files in your code. It dynamically loads the class files on-demand, improving code organization and reducing manual effort. Autoloading can be implemented by registering an autoloader function using the spl_autoload_register() function. This function allows you to define your own autoloader logic, which is triggered whenever a class is accessed but not yet defined. For more information, you can refer to the PHP documentation: http://php.net/manual/en/language.oop5.autoload.php
+
+**[⬆ Back to Top](#table-of-contents)**
+
 
 
 
