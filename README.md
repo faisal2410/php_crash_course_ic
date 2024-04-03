@@ -164,148 +164,148 @@
   | php cookies  |[What are some common uses of the $_COOKIE superglobal array in PHP ?](#phpcookies8) |
   | php cookies  |[What are some common practices in PHP cookie handling ?](#phpcookies9) |
   | php cookies  |[You are writing a PHP script and you need to set a cookie.How would you do this ?](#phpcookies10) |
-|   160    | php cookies  |[You have a PHP script and you need to access the information stored in a cookie.How would you do this ?](#phpcookies11) |
-|   161    | php cookies  |[You need to delete a cookie in your PHP script.How would you do this ?](#phpcookies12) |
-|   162    | php sessions  |[How can you start a session in PHP ?](#phpsessions1) |
-|   163    | php sessions  |[What PHP superglobal array holds the session variables ?](#phpsessions2) |
-|   164    | php sessions  |[How can you destroy a session in PHP ?](#phpsessions3) |
-|   165    | php sessions  |[In PHP, you can start a session using the session_start() ______.](#phpsessions4) |
-|   166    | php sessions  |[You can access the session variables in PHP using the $_SESSION ______ array.](#phpsessions5) |
-|   167    | php sessions  |[To destroy a session in PHP, you can use the session_destroy() ______.](#phpsessions6) |
-|   168    | php sessions  |[In PHP, you can start a session using the session_start() function.](#phpsessions7) |
-|   169    | php sessions  |[The $_SESSION superglobal array in PHP holds the session variables.](#phpsessions8) |
-|   170    | php sessions  |[You can destroy a session in PHP by using the session_destroy() function.](#phpsessions9) |
-|   171    | php sessions  |[Which of the following are ways to handle sessions in PHP ?](#phpsessions10) |
-|   172    | php sessions  |[What are some common uses of the $_SESSION superglobal array in PHP ?](#phpsessions11) |
-|   173    | php sessions  |[What are some common practices in PHP session handling ?](#phpsessions12) |
-|   174    | php sessions  |[You are writing a PHP script and you need to start a session.How would you do this ?](#phpsessions13) |
-|   175    | php sessions  |[You have a PHP script and you need to access the session variables.How would you do this ?](#phpsessions14) |
-|   176    | php sessions  |[You need to destroy a session in your PHP script.How would you do this ?](#phpsessions15) |
-|   177    | php sessions  |[What are the differences between cookies and sessions in PHP? When would you choose one over the other?](#phpsessions16) |
-|   178    | php operators  |[Which of the following are valid PHP operators ?](#phpoperators1) |
-|   179    | php constants  |[In PHP, you can define a constant in a class using the const keyword like const CONSTANT_NAME = ______.](#phpconstants1) |
-|   180    | php constants  |[You can access a constant of a PHP class using the class name followed by the scope resolution operator(:: ) and the constant name like ClassName:: CONSTANT_NAME.](#phpconstants2) |
-|   181    | php constants  |[The value of a class constant in PHP cannot be changed once it is ______.](#phpconstants3) |
-|   182    | php constants  |[A constant in a PHP class is defined using the const keyword.](#phpconstants4) |
-|   183    | php constants  |[A constant of a PHP class can be accessed using the class name followed by the scope resolution operator(:: ) and the constant name.](#phpconstants5) |
-|   184    | php constants  |[The value of a class constant in PHP can be changed after it is defined.](#phpconstants6) |
-|   185    | php constants  |[What are some of the uses of class constants in PHP OOP ?](#phpconstants7) |
-|   186    | php constants  |[ What are some best practices when defining and using class constants in PHP ?](#phpconstants8) |
-|   187    | php constants  |[ What are the differences between a class constant and a class variable in PHP ?](#phpconstants9) |
-|   188    | php constants  |[ You are writing a PHP script and you need to define a constant in a class. How would you do this ?](#phpconstants10) |
-|   189    | php constants  |[ You have a PHP script and you need to access a constant of a class. How would you do this ?](#phpconstants11) |
-|   190    | php constants  |[ You need to understand if the value of a class constant in PHP can be changed after it is defined.What would be your conclusion ?](#phpconstants12) |
-|   191    | php anonymous function  |[Explain the concept of anonymous functions (closures) in PHP. How are they used and what are their advantages?](#phpanonymousfunction1) |
-|   192    | php oop  |[What is the difference between abstract classes and interfaces in PHP? When would you use each?](#phpoop1) |
-|   193    | php oop  |[What are traits in PHP ? How do they differ from classes and interfaces, and in what situations would you use them ?](#phpoop2) |
-|   194    | php oop  |[Explain the concept of method chaining in PHP.How does it enhance code readability and simplify object - oriented programming ?](#phpoop3) |
-|   195    | php oop  |[What does accessing a class via :: mean ?](#phpoop4) |
-|   196    | php oop  |[In PHP, are objects passed by value or by reference ?](#phpoop5) |
-|   197    | php oop  |[Are Parent constructors called implicitly inside a class constructor?](#phpoop6) |
-|   198    | php oop  |[What’s the difference between __sleep and __wakeup ?](#phpoop7) |
-|   199    | php oop  |[How can we determine whether a PHP variable is an instantiated object of a certain class?](#phpoop8) |
-|   200    | php oop  |[In PHP OOP, you can call a static method using the class name followed by the scope resolution operator(:: ) and the method name like ClassName:: MethodName().](#phpoop9) |
-|   201    | php oop  |[A static method in PHP OOP is a method that belongs to the class itself rather than an instance of the class.](#phpoop10) |
-|   202    | php oop  |[In PHP, a static method is defined using the static keyword.](#phpoop11) |
-|   203    | php oop  |[A static method in PHP can be called without creating an instance of the class.](#phpoop12) |
-|   204    | php oop  |[What are some of the uses of static methods in PHP OOP ?](#phpoop13) |
-|   205    | php oop  |[What are the differences between a static method and a regular method in PHP ?](#phpoop14) |
-|   206    | php oop  |[What are some common practices in PHP when using static methods in OOP ?](#phpoop15) |
-|   207    | php oop  |[You are writing a PHP script and you need to define a static method.How would you do this ?](#phpoop16) |
-|   208    | php oop  |[You have a PHP script and you need to call a static method.How would you do this ?](#phpoop17) |
-|   209    | php oop  |[You need to understand the purpose and usage of static methods in PHP OOP.What would be your conclusion ?](#phpoop18) |
-|   210    | php oop  |[What are some of the uses of traits in PHP OOP ?](#phpoop19) |
-|   211    | php oop  |[What are the differences between a trait and a class in PHP ?](#phpoop20) |
-|   212    | php oop  |[What are some common practices in PHP when using traits in OOP ?](#phpoop21) |
-|   213    | php oop  |[You are writing a PHP script and you need to define a trait.How would you do this ?](#phpoop22) |
-|   214    | php oop  |[You have a PHP script and you need to create a class that uses a trait.How would you do this ?](#phpoop23) |
-|   215    | php oop  |[You need to understand the purpose and usage of traits in PHP OOP.What would be your conclusion ?](#phpoop24) |
-|   216    | php oop  |[What is a static method in the context of PHP OOP ?](#phpoop25) |
-|   217    | php oop  |[How do you define a static method in PHP ?](#phpoop26) |
-|   218    | php oop  |[How do you call a static method in PHP ?](#phpoop27) |
-|   219    | php oop  |[A static method in PHP OOP is a method that belongs to the class itself rather than an instance of the class. It can be called without creating an ______ of the class.](#phpoop28) |
-|   220    | php oop  |[In PHP, you can define a static method using the static keyword like public static function FunctionName() { ______ }.](#phpoop29) |
-|   221    | php abstract classes  |[What is an abstract class in the context of PHP OOP ?](#phpabstractclasses1) |
-|   222    | php abstract classes  |[How do you define an abstract class in PHP ?](#phpabstractclasses2) |
-|   223    | php abstract classes  |[Can an instance of an abstract class be created in PHP ?](#phpabstractclasses3) |
-|   224    | php abstract classes  |[An abstract class in PHP OOP is a class that cannot be instantiated and is meant to be ______ by other classes.](#phpabstractclasses4) |
-|   225    | php abstract classes  |[In PHP, you can define an abstract class using the abstract keyword like abstract class ClassName { ______ }.](#phpabstractclasses5) |
-|   226    | php abstract classes  |[In PHP OOP, an instance of an abstract class cannot be ______.](#phpabstractclasses6) |
-|   227    | php abstract classes  |[An abstract class in PHP OOP is a class that cannot be instantiated and is meant to be extended by other classes.](#phpabstractclasses7) |
-|   228    | php abstract classes  |[In PHP, an abstract class is defined using the abstract keyword.](#phpabstractclasses8) |
-|   229    | php abstract classes  |[An instance of an abstract class can be created in PHP.](#phpabstractclasses9) |
-|   230    | php abstract classes  |[What are some of the uses of abstract classes in PHP OOP ?](#phpabstractclasses10) |
-|   231    | php abstract classes  |[What are the differences between an abstract class and a regular class in PHP?](#phpabstractclasses11) |
-|   232    | php abstract classes  |[What are some common practices in PHP when using abstract classes in OOP?](#phpabstractclasses12) |
-|   233    | php abstract classes  |[You are writing a PHP script and you need to define an abstract class. How would you do this ?](#phpabstractclasses13) |
-|   234    | php abstract classes  |[You have a PHP script and you need to extend an abstract class. How would you do this ?](#phpabstractclasses14) |
-|   235    | php abstract classes  |[You need to understand if an instance of an abstract class can be created in PHP.What would be your conclusion ?](#phpabstractclasses15) |
-|   236    | php interfaces  |[What is an interface in the context of PHP OOP ?](#phpinterfaces1) |
-|   237    | php interfaces  |[How do you define an interface in PHP ?](#phpinterfaces2) |
-|   238    | php interfaces  |[How does a PHP class implement an interface ?](#phpinterfaces3) |
-|   239    | php interfaces  |[An interface in PHP OOP is a contract that specifies what methods a class ______.](#phpinterfaces4) |
-|   240    | php interfaces  |[In PHP, you can define an interface using the interface keyword like interface InterfaceName { ______ }.](#phpinterfaces5) |
-|   241    | php interfaces  |[In PHP OOP, a class implements an interface using the implements keyword like class ClassName implements ______.](#phpinterfaces6) |
-|   242    | php interfaces  |[An interface in PHP OOP is a contract that specifies what methods a class must implement.](#phpinterfaces7) |
-|   243    | php interfaces  |[In PHP, an interface is defined using the interface keyword.](#phpinterfaces8) |
-|   244    | php interfaces  |[A PHP class implements an interface using the implements keyword.](#phpinterfaces9) |
-|   245    | php interfaces  |[What are some of the uses of interfaces in PHP OOP ?](#phpinterfaces10) |
-|   246    | php interfaces  |[What are the differences between an interface and a class in PHP ?](#phpinterfaces11) |
-|   247    | php namespaces  |[What are namespaces in PHP? How do they help in organizing and resolving naming conflicts in large projects?](#phpnamespaces1) |
-|   248    | php data validation and sanitization  |[What function can be used in PHP to filter and validate data ?](#phpdatavalidationandsanitization1) |
-|   249    | php data validation and sanitization  |[What is the PHP function to sanitize a string ?](#phpdatavalidationandsanitization2) |
-|   250    | php data validation and sanitization  |[The filter_var() function in PHP is used to ______ and validate data.](#phpdatavalidationandsanitization3) |
-|   251    | php data validation and sanitization  |[To sanitize a string in PHP, you can use the filter_var() function with the FILTER_SANITIZE_STRING ______.](#phpdatavalidationandsanitization4) |
-|   252    | php data validation and sanitization  |[The filter_var() function in PHP with the FILTER_VALIDATE_INT filter is used to check if a variable is an ______.](#phpdatavalidationandsanitization5) |
-|   253    | php data validation and sanitization  |[The filter_var() function is used to filter and validate data in PHP.](#phpdatavalidationandsanitization6) |
-|   254    | php data validation and sanitization  |[The filter_var() function with the FILTER_SANITIZE_STRING filter is used to sanitize a string in PHP.](#phpdatavalidationandsanitization7) |
-|   255    | php data validation and sanitization  |[The filter_var() function with the FILTER_VALIDATE_INT filter is used to check if a variable is an integer in PHP.](#phpdatavalidationandsanitization8) |
-|   256    | php data validation and sanitization  |[Which of the following are common uses of the filter_var() function in PHP ?](#phpdatavalidationandsanitization9) |
-|   257    | php data validation and sanitization  |[What types of data can be validated using the filter_var() function in PHP ?](#phpdatavalidationandsanitization10) |
-|   258    | php data validation and sanitization  |[What are some common practices in PHP data filtering and validation ?](#phpdatavalidationandsanitization11) |
-|   259    | php data validation and sanitization  |[You are writing a PHP script and you need to sanitize user input.How would you do this ?](#phpdatavalidationandsanitization12) |
-|   260    | php data validation and sanitization  |[You need to validate and sanitize data in your PHP script.How would you do this ?](#phpdatavalidationandsanitization13) |
-|   261    | php Mail  |[What are some common use cases for mail functions in PHP ?](#phpmail1) |
-|   262    | php Mail  |[What are some commonly used mail functions available in PHP ?](#phpmail2) |
-|   263    | php Mail  |[What are some potential issues you might encounter when using mail functions in PHP ?](#phpmail3) |
-|   264    | php Mail  |[You are writing a PHP script and you need to send an email.How would you do this using mail functions ?](#phpmail4) |
-|   265    | php Mail  |[You have a PHP script and you are getting an error when trying to send an email.How would you troubleshoot this issue using mail functions?](#phpmail5) |
-|   266    | php Mail  |[You need to retrieve the error message after an email sending operation fails in your PHP script.How would you do this using mail functions ?](#phpmail6) |
-|   267    | php Mail  |[What are the PHP mail functions used for?](#phpmail7) |
-|   268    | php Mail  |[What function do you use in PHP to send an email ?](#phpmail8) |
-|   269    | php Mail  |[How do you handle errors when using mail functions in PHP ?](#phpmail9) |
-|   270    | php Mail  |[You are writing a PHP script and you need to send an email.How would you do this using mail functions ?](#phpmail10) |
-|   271    | php Mail  |[You have a PHP script and you are getting an error when trying to send an email.How would you troubleshoot this issue using mail functions?](#phpmail11) |
-|   272    | php Autoloading  |[What is the concept of autoloading in PHP? How does it work and how can you implement it in your code?](#phpautoloading1) |
-|   273    | php Image Handling  |[What is needed to be able to use image functions?](#phpimagehandling1) |
-|   274    | php Image Handling  |[What is the use of the function 'imagetypes()'?](#phpimagehandling2) |
-|   275    | php Pagination  |[How can you implement pagination in PHP for displaying large datasets? Discuss the techniques and considerations involved.](#phppagination1) |
-|   276    | php exceptions  |[How do you handle exceptions in PHP? Explain the try-catch-finally block.](#phpexceptions1) |
-|   277    | php password hashing  |[How can you implement secure password hashing in PHP ? Discuss the password_hash() and password_verify() functions.](#phppasswordhashing1) |
-|   278    | php regular expressions  |[What are Regular Expressions in PHP ?](#phpregularexpressions1) |
-|   279    | php regular expressions  |[How do you use Regular Expressions in PHP ?](#phpregularexpressions2) |
-|   280    | php regular expressions  |[What is a common use case for Regular Expressions in PHP ?](#phpregularexpressions3) |
-|   281    | php regular expressions  |[In PHP, Regular Expressions are sequences of characters that form a search pattern, used mainly for ______.](#phpregularexpressions4) |
-|   282    | php regular expressions  |[In PHP, to perform a pattern match using a Regular Expression, you can use the preg_match() function where the first argument is the ______ and the second argument is the string to search within.](#phpregularexpressions5) |
-|   283    | php regular expressions  |[A common use case for Regular Expressions in PHP is to ______.](#phpregularexpressions6) |
-|   284    | php regular expressions  |[Regular Expressions in PHP are case -sensitive.](#phpregularexpressions7) |
-|   285    | php regular expressions  |[You can use Regular Expressions in PHP to validate email addresses.](#phpregularexpressions8) |
-|   286    | php regular expressions  |[The preg_match() function in PHP returns true if the pattern was found in the string and false otherwise.](#phpregularexpressions9) |
-|   287    | php regular expressions  |[Which of the following are true about Regular Expressions in PHP ?](#phpregularexpressions10) |
-|   288    | php regular expressions  |[What can be potential issues when working with Regular Expressions in PHP ?](#phpregularexpressions11) |
-|   289    | php regular expressions  |[Which of the following are common uses of Regular Expressions in PHP ?](#phpregularexpressions12) |
-|   290    | php regular expressions  |[You are writing a PHP script and you need to check if a string matches a specific pattern.How would you do this using Regular Expressions in PHP ?](#phpregularexpressions13) |
-|   291    | php regular expressions  |[You have a PHP script and you need to validate an email address.How would you do this using Regular Expressions in PHP ?](#phpregularexpressions14) |
-|   292    | php regular expressions  |[You need to extract a part of a string in your PHP script.How would you do this using Regular Expressions in PHP ?](#phpregularexpressions15) |
-|   293    | php security  |[What is the most convenient hashing method to be used to hash passwords ?](#phpsecurity1) |
-|   294    | php security  |[Which cryptographic extension provides generation and verification of digital signatures ?](#phpsecurity2) |
-|   295    | php security  |[How can we automatically escape incoming data ?](#phpsecurity3) |
-|   296    | php security  |[What does the function get_magic_quotes_gpc() mean ?](#phpsecurity4) |
-|   297    | php security  |[Is it possible to remove HTML tags from data ?](#phpsecurity5) |
-|   298    | php design patterns  |[Explain the concept of dependency injection in PHP. How does it promote loose coupling and better testability?](#phpdesignpatterns1) |
-|   299    | php middleware  |[Explain the concept of middleware in PHP frameworks. How does it facilitate request/response handling and provide modular code organization?](#phpmiddleware1) |
-|   300    | php encryption algorithm  |[What are the different types of encryption algorithms available in PHP? Explain their differences and use cases.](#phpencryptionalgorithm1) |
-|   301    | php excel  |[What should we do to be able to export data into an Excel file?](#phpexcel1) |
+  | php cookies  |[You have a PHP script and you need to access the information stored in a cookie.How would you do this ?](#phpcookies11) |
+  | php cookies  |[You need to delete a cookie in your PHP script.How would you do this ?](#phpcookies12) |
+  | php sessions  |[How can you start a session in PHP ?](#phpsessions1) |
+  | php sessions  |[What PHP superglobal array holds the session variables ?](#phpsessions2) |
+  | php sessions  |[How can you destroy a session in PHP ?](#phpsessions3) |
+  | php sessions  |[In PHP, you can start a session using the session_start() ______.](#phpsessions4) |
+  | php sessions  |[You can access the session variables in PHP using the $_SESSION ______ array.](#phpsessions5) |
+  | php sessions  |[To destroy a session in PHP, you can use the session_destroy() ______.](#phpsessions6) |
+  | php sessions  |[In PHP, you can start a session using the session_start() function.](#phpsessions7) |
+  | php sessions  |[The $_SESSION superglobal array in PHP holds the session variables.](#phpsessions8) |
+  | php sessions  |[You can destroy a session in PHP by using the session_destroy() function.](#phpsessions9) |
+  | php sessions  |[Which of the following are ways to handle sessions in PHP ?](#phpsessions10) |
+  | php sessions  |[What are some common uses of the $_SESSION superglobal array in PHP ?](#phpsessions11) |
+  | php sessions  |[What are some common practices in PHP session handling ?](#phpsessions12) |
+  | php sessions  |[You are writing a PHP script and you need to start a session.How would you do this ?](#phpsessions13) |
+  | php sessions  |[You have a PHP script and you need to access the session variables.How would you do this ?](#phpsessions14) |
+  | php sessions  |[You need to destroy a session in your PHP script.How would you do this ?](#phpsessions15) |
+  | php sessions  |[What are the differences between cookies and sessions in PHP? When would you choose one over the other?](#phpsessions16) |
+  | php operators  |[Which of the following are valid PHP operators ?](#phpoperators1) |
+  | php constants  |[In PHP, you can define a constant in a class using the const keyword like const CONSTANT_NAME = ______.](#phpconstants1) |
+  | php constants  |[You can access a constant of a PHP class using the class name followed by the scope resolution operator(:: ) and the constant name like ClassName:: CONSTANT_NAME.](#phpconstants2) |
+  | php constants  |[The value of a class constant in PHP cannot be changed once it is ______.](#phpconstants3) |
+  | php constants  |[A constant in a PHP class is defined using the const keyword.](#phpconstants4) |
+  | php constants  |[A constant of a PHP class can be accessed using the class name followed by the scope resolution operator(:: ) and the constant name.](#phpconstants5) |
+  | php constants  |[The value of a class constant in PHP can be changed after it is defined.](#phpconstants6) |
+  | php constants  |[What are some of the uses of class constants in PHP OOP ?](#phpconstants7) |
+  | php constants  |[ What are some best practices when defining and using class constants in PHP ?](#phpconstants8) |
+  | php constants  |[ What are the differences between a class constant and a class variable in PHP ?](#phpconstants9) |
+  | php constants  |[ You are writing a PHP script and you need to define a constant in a class. How would you do this ?](#phpconstants10) |
+  | php constants  |[ You have a PHP script and you need to access a constant of a class. How would you do this ?](#phpconstants11) |
+  | php constants  |[ You need to understand if the value of a class constant in PHP can be changed after it is defined.What would be your conclusion ?](#phpconstants12) |
+  | php anonymous function  |[Explain the concept of anonymous functions (closures) in PHP. How are they used and what are their advantages?](#phpanonymousfunction1) |
+  | php oop  |[What is the difference between abstract classes and interfaces in PHP? When would you use each?](#phpoop1) |
+  | php oop  |[What are traits in PHP ? How do they differ from classes and interfaces, and in what situations would you use them ?](#phpoop2) |
+  | php oop  |[Explain the concept of method chaining in PHP.How does it enhance code readability and simplify object - oriented programming ?](#phpoop3) |
+  | php oop  |[What does accessing a class via :: mean ?](#phpoop4) |
+  | php oop  |[In PHP, are objects passed by value or by reference ?](#phpoop5) |
+  | php oop  |[Are Parent constructors called implicitly inside a class constructor?](#phpoop6) |
+  | php oop  |[What’s the difference between __sleep and __wakeup ?](#phpoop7) |
+  | php oop  |[How can we determine whether a PHP variable is an instantiated object of a certain class?](#phpoop8) |
+  | php oop  |[In PHP OOP, you can call a static method using the class name followed by the scope resolution operator(:: ) and the method name like ClassName:: MethodName().](#phpoop9) |
+  | php oop  |[A static method in PHP OOP is a method that belongs to the class itself rather than an instance of the class.](#phpoop10) |
+  | php oop  |[In PHP, a static method is defined using the static keyword.](#phpoop11) |
+  | php oop  |[A static method in PHP can be called without creating an instance of the class.](#phpoop12) |
+  | php oop  |[What are some of the uses of static methods in PHP OOP ?](#phpoop13) |
+  | php oop  |[What are the differences between a static method and a regular method in PHP ?](#phpoop14) |
+  | php oop  |[What are some common practices in PHP when using static methods in OOP ?](#phpoop15) |
+  | php oop  |[You are writing a PHP script and you need to define a static method.How would you do this ?](#phpoop16) |
+  | php oop  |[You have a PHP script and you need to call a static method.How would you do this ?](#phpoop17) |
+  | php oop  |[You need to understand the purpose and usage of static methods in PHP OOP.What would be your conclusion ?](#phpoop18) |
+  | php oop  |[What are some of the uses of traits in PHP OOP ?](#phpoop19) |
+  | php oop  |[What are the differences between a trait and a class in PHP ?](#phpoop20) |
+  | php oop  |[What are some common practices in PHP when using traits in OOP ?](#phpoop21) |
+  | php oop  |[You are writing a PHP script and you need to define a trait.How would you do this ?](#phpoop22) |
+  | php oop  |[You have a PHP script and you need to create a class that uses a trait.How would you do this ?](#phpoop23) |
+  | php oop  |[You need to understand the purpose and usage of traits in PHP OOP.What would be your conclusion ?](#phpoop24) |
+  | php oop  |[What is a static method in the context of PHP OOP ?](#phpoop25) |
+  | php oop  |[How do you define a static method in PHP ?](#phpoop26) |
+  | php oop  |[How do you call a static method in PHP ?](#phpoop27) |
+  | php oop  |[A static method in PHP OOP is a method that belongs to the class itself rather than an instance of the class. It can be called without creating an ______ of the class.](#phpoop28) |
+  | php oop  |[In PHP, you can define a static method using the static keyword like public static function FunctionName() { ______ }.](#phpoop29) |
+  | php abstract classes  |[What is an abstract class in the context of PHP OOP ?](#phpabstractclasses1) |
+  | php abstract classes  |[How do you define an abstract class in PHP ?](#phpabstractclasses2) |
+  | php abstract classes  |[Can an instance of an abstract class be created in PHP ?](#phpabstractclasses3) |
+  | php abstract classes  |[An abstract class in PHP OOP is a class that cannot be instantiated and is meant to be ______ by other classes.](#phpabstractclasses4) |
+  | php abstract classes  |[In PHP, you can define an abstract class using the abstract keyword like abstract class ClassName { ______ }.](#phpabstractclasses5) |
+  | php abstract classes  |[In PHP OOP, an instance of an abstract class cannot be ______.](#phpabstractclasses6) |
+  | php abstract classes  |[An abstract class in PHP OOP is a class that cannot be instantiated and is meant to be extended by other classes.](#phpabstractclasses7) |
+  | php abstract classes  |[In PHP, an abstract class is defined using the abstract keyword.](#phpabstractclasses8) |
+  | php abstract classes  |[An instance of an abstract class can be created in PHP.](#phpabstractclasses9) |
+  | php abstract classes  |[What are some of the uses of abstract classes in PHP OOP ?](#phpabstractclasses10) |
+  | php abstract classes  |[What are the differences between an abstract class and a regular class in PHP?](#phpabstractclasses11) |
+  | php abstract classes  |[What are some common practices in PHP when using abstract classes in OOP?](#phpabstractclasses12) |
+  | php abstract classes  |[You are writing a PHP script and you need to define an abstract class. How would you do this ?](#phpabstractclasses13) |
+  | php abstract classes  |[You have a PHP script and you need to extend an abstract class. How would you do this ?](#phpabstractclasses14) |
+  | php abstract classes  |[You need to understand if an instance of an abstract class can be created in PHP.What would be your conclusion ?](#phpabstractclasses15) |
+  | php interfaces  |[What is an interface in the context of PHP OOP ?](#phpinterfaces1) |
+  | php interfaces  |[How do you define an interface in PHP ?](#phpinterfaces2) |
+  | php interfaces  |[How does a PHP class implement an interface ?](#phpinterfaces3) |
+  | php interfaces  |[An interface in PHP OOP is a contract that specifies what methods a class ______.](#phpinterfaces4) |
+  | php interfaces  |[In PHP, you can define an interface using the interface keyword like interface InterfaceName { ______ }.](#phpinterfaces5) |
+  | php interfaces  |[In PHP OOP, a class implements an interface using the implements keyword like class ClassName implements ______.](#phpinterfaces6) |
+  | php interfaces  |[An interface in PHP OOP is a contract that specifies what methods a class must implement.](#phpinterfaces7) |
+  | php interfaces  |[In PHP, an interface is defined using the interface keyword.](#phpinterfaces8) |
+  | php interfaces  |[A PHP class implements an interface using the implements keyword.](#phpinterfaces9) |
+  | php interfaces  |[What are some of the uses of interfaces in PHP OOP ?](#phpinterfaces10) |
+  | php interfaces  |[What are the differences between an interface and a class in PHP ?](#phpinterfaces11) |
+  | php namespaces  |[What are namespaces in PHP? How do they help in organizing and resolving naming conflicts in large projects?](#phpnamespaces1) |
+  | php data validation and sanitization  |[What function can be used in PHP to filter and validate data ?](#phpdatavalidationandsanitization1) |
+  | php data validation and sanitization  |[What is the PHP function to sanitize a string ?](#phpdatavalidationandsanitization2) |
+  | php data validation and sanitization  |[The filter_var() function in PHP is used to ______ and validate data.](#phpdatavalidationandsanitization3) |
+  | php data validation and sanitization  |[To sanitize a string in PHP, you can use the filter_var() function with the FILTER_SANITIZE_STRING ______.](#phpdatavalidationandsanitization4) |
+  | php data validation and sanitization  |[The filter_var() function in PHP with the FILTER_VALIDATE_INT filter is used to check if a variable is an ______.](#phpdatavalidationandsanitization5) |
+  | php data validation and sanitization  |[The filter_var() function is used to filter and validate data in PHP.](#phpdatavalidationandsanitization6) |
+  | php data validation and sanitization  |[The filter_var() function with the FILTER_SANITIZE_STRING filter is used to sanitize a string in PHP.](#phpdatavalidationandsanitization7) |
+  | php data validation and sanitization  |[The filter_var() function with the FILTER_VALIDATE_INT filter is used to check if a variable is an integer in PHP.](#phpdatavalidationandsanitization8) |
+  | php data validation and sanitization  |[Which of the following are common uses of the filter_var() function in PHP ?](#phpdatavalidationandsanitization9) |
+  | php data validation and sanitization  |[What types of data can be validated using the filter_var() function in PHP ?](#phpdatavalidationandsanitization10) |
+  | php data validation and sanitization  |[What are some common practices in PHP data filtering and validation ?](#phpdatavalidationandsanitization11) |
+  | php data validation and sanitization  |[You are writing a PHP script and you need to sanitize user input.How would you do this ?](#phpdatavalidationandsanitization12) |
+  | php data validation and sanitization  |[You need to validate and sanitize data in your PHP script.How would you do this ?](#phpdatavalidationandsanitization13) |
+  | php Mail  |[What are some common use cases for mail functions in PHP ?](#phpmail1) |
+  | php Mail  |[What are some commonly used mail functions available in PHP ?](#phpmail2) |
+  | php Mail  |[What are some potential issues you might encounter when using mail functions in PHP ?](#phpmail3) |
+  | php Mail  |[You are writing a PHP script and you need to send an email.How would you do this using mail functions ?](#phpmail4) |
+  | php Mail  |[You have a PHP script and you are getting an error when trying to send an email.How would you troubleshoot this issue using mail functions?](#phpmail5) |
+  | php Mail  |[You need to retrieve the error message after an email sending operation fails in your PHP script.How would you do this using mail functions ?](#phpmail6) |
+  | php Mail  |[What are the PHP mail functions used for?](#phpmail7) |
+  | php Mail  |[What function do you use in PHP to send an email ?](#phpmail8) |
+  | php Mail  |[How do you handle errors when using mail functions in PHP ?](#phpmail9) |
+  | php Mail  |[You are writing a PHP script and you need to send an email.How would you do this using mail functions ?](#phpmail10) |
+  | php Mail  |[You have a PHP script and you are getting an error when trying to send an email.How would you troubleshoot this issue using mail functions?](#phpmail11) |
+  | php Autoloading  |[What is the concept of autoloading in PHP? How does it work and how can you implement it in your code?](#phpautoloading1) |
+  | php Image Handling  |[What is needed to be able to use image functions?](#phpimagehandling1) |
+  | php Image Handling  |[What is the use of the function 'imagetypes()'?](#phpimagehandling2) |
+  | php Pagination  |[How can you implement pagination in PHP for displaying large datasets? Discuss the techniques and considerations involved.](#phppagination1) |
+  | php exceptions  |[How do you handle exceptions in PHP? Explain the try-catch-finally block.](#phpexceptions1) |
+  | php password hashing  |[How can you implement secure password hashing in PHP ? Discuss the password_hash() and password_verify() functions.](#phppasswordhashing1) |
+  | php regular expressions  |[What are Regular Expressions in PHP ?](#phpregularexpressions1) |
+  | php regular expressions  |[How do you use Regular Expressions in PHP ?](#phpregularexpressions2) |
+  | php regular expressions  |[What is a common use case for Regular Expressions in PHP ?](#phpregularexpressions3) |
+  | php regular expressions  |[In PHP, Regular Expressions are sequences of characters that form a search pattern, used mainly for ______.](#phpregularexpressions4) |
+  | php regular expressions  |[In PHP, to perform a pattern match using a Regular Expression, you can use the preg_match() function where the first argument is the ______ and the second argument is the string to search within.](#phpregularexpressions5) |
+  | php regular expressions  |[A common use case for Regular Expressions in PHP is to ______.](#phpregularexpressions6) |
+  | php regular expressions  |[Regular Expressions in PHP are case -sensitive.](#phpregularexpressions7) |
+  | php regular expressions  |[You can use Regular Expressions in PHP to validate email addresses.](#phpregularexpressions8) |
+  | php regular expressions  |[The preg_match() function in PHP returns true if the pattern was found in the string and false otherwise.](#phpregularexpressions9) |
+  | php regular expressions  |[Which of the following are true about Regular Expressions in PHP ?](#phpregularexpressions10) |
+  | php regular expressions  |[What can be potential issues when working with Regular Expressions in PHP ?](#phpregularexpressions11) |
+  | php regular expressions  |[Which of the following are common uses of Regular Expressions in PHP ?](#phpregularexpressions12) |
+  | php regular expressions  |[You are writing a PHP script and you need to check if a string matches a specific pattern.How would you do this using Regular Expressions in PHP ?](#phpregularexpressions13) |
+  | php regular expressions  |[You have a PHP script and you need to validate an email address.How would you do this using Regular Expressions in PHP ?](#phpregularexpressions14) |
+  | php regular expressions  |[You need to extract a part of a string in your PHP script.How would you do this using Regular Expressions in PHP ?](#phpregularexpressions15) |
+  | php security  |[What is the most convenient hashing method to be used to hash passwords ?](#phpsecurity1) |
+  | php security  |[Which cryptographic extension provides generation and verification of digital signatures ?](#phpsecurity2) |
+  | php security  |[How can we automatically escape incoming data ?](#phpsecurity3) |
+  | php security  |[What does the function get_magic_quotes_gpc() mean ?](#phpsecurity4) |
+  | php security  |[Is it possible to remove HTML tags from data ?](#phpsecurity5) |
+  | php design patterns  |[Explain the concept of dependency injection in PHP. How does it promote loose coupling and better testability?](#phpdesignpatterns1) |
+  | php middleware  |[Explain the concept of middleware in PHP frameworks. How does it facilitate request/response handling and provide modular code organization?](#phpmiddleware1) |
+  | php encryption algorithm  |[What are the different types of encryption algorithms available in PHP? Explain their differences and use cases.](#phpencryptionalgorithm1) |
+  | php excel  |[What should we do to be able to export data into an Excel file?](#phpexcel1) |
 
 
     
