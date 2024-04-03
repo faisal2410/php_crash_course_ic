@@ -1,6 +1,6 @@
 # PHP Conceptual / Interview Questions & Explanation
 ## Keywords ( Click the keyword for learning related concept)
-✅[PHP General Knowledge](#phpgeneralknowledge1)  ✅  [PHP History](#phphistory1) ✅  [PHP Benefits](#phpbenefits1) ✅ [Web Development With PHP](#webdevelopmentwithphp1) ✅ [PHP Installation](#phpinstall1) ✅ [Local Development Environment](#local1) ✅ [PHP Syntax](#phpsyntax1)  ✅[PHP Variable](#var1) ✅ [PHP Data Type](#datatype1) ✅[PHP and HTML](#phpandhtml1) ✅ [PHP and Javascript](#phpandjavascript1) ✅ [PHP String Manipulation](#phpstringmanipulation1) ✅ [PHP Function](#phpfunction1) ✅[PHP File Handling](#phpfilehandling1) ✅ [PHP Form Handling](#phpformhandling1) ✅ [PHP Superglobals](#phpsuperglobals1) ✅ [PHP Form Validation](#phpformvalidation1) ✅[PHP Cookies](#phpcookies1) ✅ [PHP Sessions](#phpsessions1) ✅ [PHP Operators](#phpoperators1) ✅ [PHP Constants](#phpconstants1) ✅[PHP OOP](#phpoop1) ✅ [PHP Abstract Classes](#phpabstractclasses1) ✅ [ PHP Interfaces](#phpinterfaces1) ✅ [PHP Namesapces](#phpnamespaces1) ✅ [PHP Data Validation and Sanitization](#phpdatavalidationandsanitization1) ✅[PHP Mail](#phpmail1) ✅ [PHP Autoloading](#phpautoloading1) ✅[PHP Image Handling](#phpimagehandling1) ✅[PHP Pagination](#phppagination1) ✅ [PHP Exceptions](#phpexceptions1) ✅[PHP Password Hashing](#phppasswordhashing1) ✅[PHP Regular Expressions](#phpregularexpressions1) ✅[PHP Security](#phpsecurity1) ✅ [PHP Design Patterns1](#phpdesignpatterns1) ✅ [PHP Middleware](#phpmiddleware1) ✅[PHP Encryption Algorithm](#phpencryptionalgorithm1) ✅ [PHP Excel](#phpexcel1) ✅[PHP FTP](#phpftp1) ✅[PHP Performance](#phpperformance1) ✅[PHP Networking](#phpnetworking1) ✅[PHP IBXML](#phpibxml1) ✅[PHP Advanced](#phpadvanced1) ✅[PHP Output Control](#phpoutputcontrol1) ✅[PHP Troubleshooting](#phptroubleshooting1)
+✅[PHP General Knowledge](#phpgeneralknowledge1)  ✅  [PHP History](#phphistory1) ✅  [PHP Benefits](#phpbenefits1) ✅ [Web Development With PHP](#webdevelopmentwithphp1) ✅ [PHP Installation](#phpinstall1) ✅ [Local Development Environment](#local1) ✅ [PHP Syntax](#phpsyntax1)  ✅[PHP Variable](#var1) ✅ [PHP Data Type](#datatype1) ✅[PHP and HTML](#phpandhtml1) ✅ [PHP and Javascript](#phpandjavascript1) ✅ [PHP String Manipulation](#phpstringmanipulation1) ✅ [PHP Function](#phpfunction1) ✅[PHP File Handling](#phpfilehandling1) ✅ [PHP Form Handling](#phpformhandling1) ✅ [PHP Superglobals](#phpsuperglobals1) ✅ [PHP Form Validation](#phpformvalidation1) ✅[PHP Cookies](#phpcookies1) ✅ [PHP Sessions](#phpsessions1) ✅ [PHP Operators](#phpoperators1) ✅ [PHP Constants](#phpconstants1) ✅[PHP OOP](#phpoop1) ✅ [PHP Abstract Classes](#phpabstractclasses1) ✅ [ PHP Interfaces](#phpinterfaces1) ✅ [PHP Namesapces](#phpnamespaces1) ✅ [PHP Data Validation and Sanitization](#phpdatavalidationandsanitization1) ✅[PHP Mail](#phpmail1) ✅ [PHP Autoloading](#phpautoloading1) ✅[PHP Image Handling](#phpimagehandling1) ✅[PHP Pagination](#phppagination1) ✅ [PHP Exceptions](#phpexceptions1) ✅[PHP Password Hashing](#phppasswordhashing1) ✅[PHP Regular Expressions](#phpregularexpressions1) ✅[PHP Security](#phpsecurity1) ✅ [PHP Design Patterns1](#phpdesignpatterns1) ✅ [PHP Middleware](#phpmiddleware1) ✅[PHP Encryption Algorithm](#phpencryptionalgorithm1) ✅ [PHP Excel](#phpexcel1) ✅[PHP FTP](#phpftp1) ✅[PHP Performance](#phpperformance1) ✅[PHP Networking](#phpnetworking1) ✅[PHP IBXML](#phpibxml1) ✅[PHP Advanced](#phpadvanced1) ✅[PHP Output Control](#phpoutputcontrol1) ✅[PHP Troubleshooting](#phptroubleshooting1) ✅[PHP Database](#phpdatabase1)
 
 ### Table of Contents
   | Keyword          | Question                                        |
@@ -337,6 +337,7 @@
   | php output control  |[How do you handle errors when using output control functions in PHP ?](#phpoutputcontrol3) |
   | php troubleshooting  |[You have installed PHP on your local machine, but your PHP script isn't running. What could be potential reasons for this?](#phptroubleshooting1) |
   | php troubleshooting  |[You've written a PHP script, but it's not executing correctly. You suspect there's a syntax error. How would you go about debugging this?](#phptroubleshooting2) |
+  | php database  |[What is the purpose of the mysqli_connect() function in PHP ?](#phpdatabase1) |
 
 
 
@@ -3075,5 +3076,12 @@
 ## You've written a PHP script, but it's not executing correctly. You suspect there's a syntax error. How would you go about debugging this?
 
 >> PHP offers several ways to debug scripts. Running the script with a PHP interpreter can reveal error messages that can help identify the problem. PHP also maintains an error log file that you can check for errors. Furthermore, using a PHP linter or a similar code checking tool can help identify syntax errors in your script. Learn more: https://www.php.net/manual/en/book.errorfunc.php
+
+**[⬆ Back to Top](#table-of-contents)**
+
+###### phpdatabase1
+## What is the purpose of the mysqli_connect() function in PHP ?
+    
+>> The mysqli_connect() function in PHP is used to establish a connection to a MySQL database. It takes the necessary parameters, such as the host, username, password, and database name, and returns a connection object that can be used to interact with the database. Learn more: http://php.net/manual/en/mysqli.construct.php
 
 **[⬆ Back to Top](#table-of-contents)**
