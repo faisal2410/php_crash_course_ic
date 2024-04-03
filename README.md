@@ -3,9 +3,9 @@
 ✅[PHP General Knowledge](#phpgeneralknowledge1)  ✅  [PHP History](#phphistory1) ✅  [PHP Benefits](#phpbenefits1) ✅ [Web Development With PHP](#webdevelopmentwithphp1) ✅ [PHP Installation](#phpinstall1) ✅ [Local Development Environment](#local1) ✅ [PHP Syntax](#phpsyntax1)  ✅[PHP Variable](#var1) ✅ [PHP Data Type](#datatype1) ✅[PHP and HTML](#phpandhtml1) ✅ [PHP and Javascript](#phpandjavascript1) ✅ [PHP String Manipulation](#phpstringmanipulation1) ✅ [PHP Function](#phpfunction1) ✅[PHP File Handling](#phpfilehandling1) ✅ [PHP Form Handling](#phpformhandling1) ✅ [PHP Superglobals](#phpsuperglobals1) ✅ [PHP Form Validation](#phpformvalidation1) ✅[PHP Cookies](#phpcookies1) ✅ [PHP Sessions](#phpsessions1) ✅ [PHP Operators](#phpoperators1) ✅ [PHP Constants](#phpconstants1) ✅[PHP OOP](#phpoop1) ✅ [PHP Abstract Classes](#phpabstractclasses1) ✅ [ PHP Interfaces](#phpinterfaces1) ✅ [PHP Namesapces](#phpnamespaces1) ✅ [PHP Data Validation and Sanitization](#phpdatavalidationandsanitization1) ✅[PHP Mail](#phpmail1) ✅ [PHP Autoloading](#phpautoloading1) ✅[PHP Image Handling](#phpimagehandling1) ✅[PHP Pagination](#phppagination1) ✅ [PHP Exceptions](#phpexceptions1) ✅[PHP Password Hashing](#phppasswordhashing1) ✅[PHP Regular Expressions](#phpregularexpressions1) ✅[PHP Security](#phpsecurity1) ✅ [PHP Design Patterns1](#phpdesignpatterns1) ✅ [PHP Middleware](#phpmiddleware1) ✅[PHP Encryption Algorithm](#phpencryptionalgorithm1) ✅ [PHP Excel](#phpexcel1)
 
 ### Table of Contents
-| Number | Keyword          | Question                                        |
-|--------|------------------|-------------------------------------------------|
-|   1    | php general knowledge  | [ What does PHP stand for?](#phpgeneralknowledge1) |
+  | Keyword          | Question                                        |
+  |------------------|-------------------------------------------------|
+  | php general knowledge  | [ What does PHP stand for?](#phpgeneralknowledge1) |
 |   2    | php history  | [ PHP was originally created by ______ in the year ______.](#phphistory1) |
 |   3    | php benefits  | [ You have been asked to explain the benefits of using PHP for web development to a potential client. What would you say?](#phpbenefits1) |
 |   4    | php features  | [Which of the following are features of PHP?](#phpfeatures1) |
