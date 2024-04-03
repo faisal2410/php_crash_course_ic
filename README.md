@@ -7,13 +7,13 @@
   |------------------|-------------------------------------------------|
   | php general knowledge  | [ What does PHP stand for?](#phpgeneralknowledge1) |
   | php history  | [ PHP was originally created by ______ in the year ______.](#phphistory1) |
-|   3    | php benefits  | [ You have been asked to explain the benefits of using PHP for web development to a potential client. What would you say?](#phpbenefits1) |
-|   4    | php features  | [Which of the following are features of PHP?](#phpfeatures1) |
-|   5    | web development with php  | [PHP is primarily used for which type of development ?](#webdevelopmentwithphp1) |
-|   6    | web development with php  | [PHP can be used to develop static web pages.](#webdevelopmentwithphp2) |
-|   7    | web development with php  | [Which of the following are common uses of PHP ?](#webdevelopmentwithphp3) |
-|   8    | web development with php  | [Imagine you are tasked with developing a dynamic website that interacts with a database.Would PHP be a suitable choice for this task ? Why or why not ?](#webdevelopmentwithphp4) |
-|   9    | php installation  | [ On which of the following operating systems can PHP be installed ?](#phpinstall1) |
+  | php benefits  | [ You have been asked to explain the benefits of using PHP for web development to a potential client. What would you say?](#phpbenefits1) |
+  | php features  | [Which of the following are features of PHP?](#phpfeatures1) |
+  | web development with php  | [PHP is primarily used for which type of development ?](#webdevelopmentwithphp1) |
+  | web development with php  | [PHP can be used to develop static web pages.](#webdevelopmentwithphp2) |
+  | web development with php  | [Which of the following are common uses of PHP ?](#webdevelopmentwithphp3) |
+  | web development with php  | [Imagine you are tasked with developing a dynamic website that interacts with a database.Would PHP be a suitable choice for this task ? Why or why not ?](#webdevelopmentwithphp4) |
+  | php installation  | [ On which of the following operating systems can PHP be installed ?](#phpinstall1) |
 |   10    | php installation  | [ After installing PHP, you need to restart the ______ to make sure the changes take effect.](#phpinstall2) |
 |   11    | php installation  | [ PHP can only be installed on a Linux operating system.](#phpinstall3) |
 |   12    | php installation  | [ After installing PHP, you can immediately start running PHP scripts without restarting the server.](#phpinstall4) |
