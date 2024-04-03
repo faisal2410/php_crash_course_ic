@@ -6,7 +6,7 @@
   | Keyword          | Question                                        |
   |------------------|-------------------------------------------------|
   | php general knowledge  | [ What does PHP stand for?](#phpgeneralknowledge1) |
-|   2    | php history  | [ PHP was originally created by ______ in the year ______.](#phphistory1) |
+  | php history  | [ PHP was originally created by ______ in the year ______.](#phphistory1) |
 |   3    | php benefits  | [ You have been asked to explain the benefits of using PHP for web development to a potential client. What would you say?](#phpbenefits1) |
 |   4    | php features  | [Which of the following are features of PHP?](#phpfeatures1) |
 |   5    | web development with php  | [PHP is primarily used for which type of development ?](#webdevelopmentwithphp1) |
