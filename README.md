@@ -1,6 +1,6 @@
 # PHP Conceptual / Interview Questions & Explanation
 ## Keywords ( Click the keyword for learning related concept)
-✅[PHP General Knowledge](#phpgeneralknowledge1)  ✅  [PHP History](#phphistory1) ✅  [PHP Benefits](#phpbenefits1) ✅ [Web Development With PHP](#webdevelopmentwithphp1) ✅ [PHP Installation](#phpinstall1) ✅ [Local Development Environment](#local1) ✅ [PHP Syntax](#phpsyntax1)  ✅[PHP Variable](#var1) ✅ [PHP Data Type](#datatype1) ✅[PHP and HTML](#phpandhtml1) ✅ [PHP and Javascript](#phpandjavascript1) ✅ [PHP String Manipulation](#phpstringmanipulation1) ✅ [PHP Function](#phpfunction1) ✅[PHP File Handling](#phpfilehandling1) ✅ [PHP Form Handling](#phpformhandling1) ✅ [PHP Superglobals](#phpsuperglobals1) ✅ [PHP Form Validation](#phpformvalidation1) ✅[PHP Cookies](#phpcookies1) ✅ [PHP Sessions](#phpsessions1) ✅ [PHP Operators](#phpoperators1) ✅ [PHP Constants](#phpconstants1) ✅[PHP OOP](#phpoop1) ✅ [PHP Abstract Classes](#phpabstractclasses1) ✅ [ PHP Interfaces](#phpinterfaces1) ✅ [PHP Namesapces](#phpnamespaces1) ✅ [PHP Data Validation and Sanitization](#phpdatavalidationandsanitization1) ✅[PHP Mail](#phpmail1) ✅ [PHP Autoloading](#phpautoloading1) ✅[PHP Image Handling](#phpimagehandling1) ✅[PHP Pagination](#phppagination1) ✅ [PHP Exceptions](#phpexceptions1) ✅[PHP Password Hashing](#phppasswordhashing1) ✅[PHP Regular Expressions](#phpregularexpressions1) ✅[PHP Security](#phpsecurity1)
+✅[PHP General Knowledge](#phpgeneralknowledge1)  ✅  [PHP History](#phphistory1) ✅  [PHP Benefits](#phpbenefits1) ✅ [Web Development With PHP](#webdevelopmentwithphp1) ✅ [PHP Installation](#phpinstall1) ✅ [Local Development Environment](#local1) ✅ [PHP Syntax](#phpsyntax1)  ✅[PHP Variable](#var1) ✅ [PHP Data Type](#datatype1) ✅[PHP and HTML](#phpandhtml1) ✅ [PHP and Javascript](#phpandjavascript1) ✅ [PHP String Manipulation](#phpstringmanipulation1) ✅ [PHP Function](#phpfunction1) ✅[PHP File Handling](#phpfilehandling1) ✅ [PHP Form Handling](#phpformhandling1) ✅ [PHP Superglobals](#phpsuperglobals1) ✅ [PHP Form Validation](#phpformvalidation1) ✅[PHP Cookies](#phpcookies1) ✅ [PHP Sessions](#phpsessions1) ✅ [PHP Operators](#phpoperators1) ✅ [PHP Constants](#phpconstants1) ✅[PHP OOP](#phpoop1) ✅ [PHP Abstract Classes](#phpabstractclasses1) ✅ [ PHP Interfaces](#phpinterfaces1) ✅ [PHP Namesapces](#phpnamespaces1) ✅ [PHP Data Validation and Sanitization](#phpdatavalidationandsanitization1) ✅[PHP Mail](#phpmail1) ✅ [PHP Autoloading](#phpautoloading1) ✅[PHP Image Handling](#phpimagehandling1) ✅[PHP Pagination](#phppagination1) ✅ [PHP Exceptions](#phpexceptions1) ✅[PHP Password Hashing](#phppasswordhashing1) ✅[PHP Regular Expressions](#phpregularexpressions1) ✅[PHP Security](#phpsecurity1) ✅ [PHP Design Patterns1](#phpdesignpatterns1)
 
 ### Table of Contents
 | Number | Keyword          | Question                                        |
@@ -302,6 +302,7 @@
 |   295    | php security  |[How can we automatically escape incoming data ?](#phpsecurity3) |
 |   296    | php security  |[What does the function get_magic_quotes_gpc() mean ?](#phpsecurity4) |
 |   297    | php security  |[Is it possible to remove HTML tags from data ?](#phpsecurity5) |
+|   298    | php design patterns  |[Explain the concept of dependency injection in PHP. How does it promote loose coupling and better testability?](#phpdesignpatterns1) |
 
 
     
@@ -2784,6 +2785,11 @@
 ## Is it possible to remove HTML tags from data ?
 
 >> Yes, it is possible to remove HTML tags from data in PHP. The strip_tags() function can be used to remove HTML tags from a string. It takes the input string and returns a new string with the HTML tags removed. For example, you can use strip_tags($input) to remove HTML tags from the $input variable. It's important to note that strip_tags() removes all HTML tags, including any content within them. If you want to allow certain tags or sanitize the input further, you can provide a second argument to specify the allowed tags. Additionally, you can use htmlspecialchars() to escape HTML tags rather than removing them completely. This function converts special characters to their corresponding HTML entities, preserving the structure of the text while preventing the tags from being interpreted as HTML.
-
 **[⬆ Back to Top](#table-of-contents)**
 
+###### phpdesignpatterns1
+## Explain the concept of dependency injection in PHP. How does it promote loose coupling and better testability?
+
+>> Dependency injection is a powerful technique in PHP that improves code maintainability and testability. It allows you to inject dependencies into a class from the outside, making the class more modular and decoupled from its dependencies. This promotes loose coupling and makes it easier to replace or mock dependencies during testing. The concept of dependency injection involves passing dependencies to a class through constructor injection or setter injection. For more information, you can refer to the PHP documentation: http://php.net/manual/en/language.oop5.decon.php
+
+**[⬆ Back to Top](#table-of-contents)**
