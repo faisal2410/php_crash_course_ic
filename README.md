@@ -1,6 +1,6 @@
 # PHP Conceptual / Interview Questions & Explanation
 ## Keywords ( Click the keyword for learning related concept)
-✅[PHP General Knowledge](#phpgeneralknowledge1)  ✅  [PHP History](#phphistory1) ✅  [PHP Benefits](#phpbenefits1) ✅ [Web Development With PHP](#webdevelopmentwithphp1) ✅ [PHP Installation](#phpinstall1) ✅ [Local Development Environment](#local1) ✅ [PHP Syntax](#phpsyntax1)  ✅[PHP Variable](#var1) ✅ [PHP Data Type](#datatype1) ✅[PHP and HTML](#phpandhtml1) ✅ [PHP and Javascript](#phpandjavascript1) ✅ [PHP String Manipulation](#phpstringmanipulation1) ✅ [PHP Function](#phpfunction1) ✅[PHP File Handling](#phpfilehandling1) ✅ [PHP Form Handling](#phpformhandling1) ✅ [PHP Superglobals](#phpsuperglobals1) ✅ [PHP Form Validation](#phpformvalidation1) ✅[PHP Cookies](#phpcookies1) ✅ [PHP Sessions](#phpsessions1) ✅ [PHP Operators](#phpoperators1) ✅ [PHP Constants](#phpconstants1) ✅[PHP OOP](#phpoop1) ✅ [PHP Abstract Classes](#phpabstractclasses1) ✅ [ PHP Interfaces](#phpinterfaces1) ✅ [PHP Namesapces](#phpnamespaces1) ✅ [PHP Data Validation and Sanitization](#phpdatavalidationandsanitization1) ✅[PHP Mail](#phpmail1) ✅ [PHP Autoloading](#phpautoloading1) ✅[PHP Image Handling](#phpimagehandling1) ✅[PHP Pagination](#phppagination1) ✅ [PHP Exceptions](#phpexceptions1) ✅[PHP Password Hashing](#phppasswordhashing1) ✅[PHP Regular Expressions](#phpregularexpressions1) ✅[PHP Security](#phpsecurity1) ✅ [PHP Design Patterns1](#phpdesignpatterns1) ✅ [PHP Middleware](#phpmiddleware1) ✅[PHP Encryption Algorithm](#phpencryptionalgorithm1) ✅ [PHP Excel](#phpexcel1) ✅[PHP FTP](#phpftp1) ✅[PHP Performance](#phpperformance1) ✅[PHP Networking](#phpnetworking1) ✅[PHP IBXML](#phpibxml1)
+✅[PHP General Knowledge](#phpgeneralknowledge1)  ✅  [PHP History](#phphistory1) ✅  [PHP Benefits](#phpbenefits1) ✅ [Web Development With PHP](#webdevelopmentwithphp1) ✅ [PHP Installation](#phpinstall1) ✅ [Local Development Environment](#local1) ✅ [PHP Syntax](#phpsyntax1)  ✅[PHP Variable](#var1) ✅ [PHP Data Type](#datatype1) ✅[PHP and HTML](#phpandhtml1) ✅ [PHP and Javascript](#phpandjavascript1) ✅ [PHP String Manipulation](#phpstringmanipulation1) ✅ [PHP Function](#phpfunction1) ✅[PHP File Handling](#phpfilehandling1) ✅ [PHP Form Handling](#phpformhandling1) ✅ [PHP Superglobals](#phpsuperglobals1) ✅ [PHP Form Validation](#phpformvalidation1) ✅[PHP Cookies](#phpcookies1) ✅ [PHP Sessions](#phpsessions1) ✅ [PHP Operators](#phpoperators1) ✅ [PHP Constants](#phpconstants1) ✅[PHP OOP](#phpoop1) ✅ [PHP Abstract Classes](#phpabstractclasses1) ✅ [ PHP Interfaces](#phpinterfaces1) ✅ [PHP Namesapces](#phpnamespaces1) ✅ [PHP Data Validation and Sanitization](#phpdatavalidationandsanitization1) ✅[PHP Mail](#phpmail1) ✅ [PHP Autoloading](#phpautoloading1) ✅[PHP Image Handling](#phpimagehandling1) ✅[PHP Pagination](#phppagination1) ✅ [PHP Exceptions](#phpexceptions1) ✅[PHP Password Hashing](#phppasswordhashing1) ✅[PHP Regular Expressions](#phpregularexpressions1) ✅[PHP Security](#phpsecurity1) ✅ [PHP Design Patterns1](#phpdesignpatterns1) ✅ [PHP Middleware](#phpmiddleware1) ✅[PHP Encryption Algorithm](#phpencryptionalgorithm1) ✅ [PHP Excel](#phpexcel1) ✅[PHP FTP](#phpftp1) ✅[PHP Performance](#phpperformance1) ✅[PHP Networking](#phpnetworking1) ✅[PHP IBXML](#phpibxml1) ✅[PHP Advanced](#phpadvanced1) ✅[PHP Output Control](#phpoutputcontrol1)
 
 ### Table of Contents
   | Keyword          | Question                                        |
@@ -329,6 +329,12 @@
   | php ibxml  |[What are the libxml functions in PHP used for?](#phpibxml1) |
   | php ibxml  |[What function do you use in PHP to load an XML document into a DOM object ?](#phpibxml2) |
   | php ibxml  |[How do you handle errors when using libxml functions in PHP ?](#phpibxml3) |
+  | php advanced  |[Is it possible to use COM components in PHP ?](#phpadvanced1) |
+  | php advanced  |[Explain whether it is possible to share a single instance of a Memcache between multiple PHP projects.](#phpadvanced2) |
+  | php advanced  |[Explain how you can update Memcached when you make changes to PHP ?](#phpadvanced3) |
+  | php output control  |[What are some commonly used output control functions in PHP ?](#phpoutputcontrol1) |
+  | php output control  |[What function do you use in PHP to start output buffering ?](#phpoutputcontrol2) |
+  | php output control  |[How do you handle errors when using output control functions in PHP ?](#phpoutputcontrol3) |
 
 
 
@@ -3013,4 +3019,45 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
+###### phpadvanced1
+## Is it possible to use COM components in PHP ?
+    
+>> Yes, it is possible to use COM(Component Object Model) components in PHP on Windows systems.PHP provides the COM extension that allows interaction with COM objects.However, it depends on the server configuration and the availability of the COM extension.Learn more: http://php.net/manual/en/book.com.php
+
+**[⬆ Back to Top](#table-of-contents)**
+
+###### phpadvanced2
+## Explain whether it is possible to share a single instance of a Memcache between multiple PHP projects.
+    
+>> No, it is not possible to share a single instance of Memcache between multiple PHP projects.Memcache is an in -memory caching system that is specific to each PHP application.Each application needs to have its own instance of Memcache to store and retrieve its own cached data.Learn more: http://php.net/manual/en/book.memcache.php
+
+**[⬆ Back to Top](#table-of-contents)**
+
+###### phpadvanced3
+## Explain how you can update Memcached when you make changes to PHP ?
+    
+>> To update Memcached when making changes to PHP, you need to clear the Memcached cache. This ensures that the updated data and changes are reflected in the cache. You can do this by flushing or deleting the relevant keys or by clearing the entire cache. Learn more: http://php.net/manual/en/book.memcached.php
+
+**[⬆ Back to Top](#table-of-contents)**
+
+###### phpoutputcontrol1
+## What are some commonly used output control functions in PHP ?
+    
+>> Some commonly used output control functions in PHP include ob_start(), ob_flush(), and ob_end_clean().The ob_start() function is used to start output buffering in PHP, capturing the output to a buffer instead of sending it directly to the browser.The ob_flush() function flushes the contents of the output buffer and sends it to the browser.The ob_end_clean() function discards the contents of the output buffer without sending it.These functions provide control over the output generation and manipulation in PHP scripts, allowing you to capture, modify, and control the final output sent to the client.
+
+  **[⬆ Back to Top](#table-of-contents)**
+  
+###### phpoutputcontrol2
+## What function do you use in PHP to start output buffering ?
+    
+>> In PHP, you can start output buffering using the ob_start() function. This function enables output buffering, capturing the output generated by PHP scripts and storing it in an internal buffer instead of immediately sending it to the client's browser. This provides the ability to manipulate the output, modify headers, and perform other operations before sending the final output to the browser. Using ob_start() is particularly useful when you need to conditionally modify or discard the output based on certain conditions or when you want to capture the output for further processing.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+###### phpoutputcontrol3
+## How do you handle errors when using output control functions in PHP ?
+    
+>> When using output control functions in PHP, you can handle errors by checking the return values of the functions. Many PHP functions return false or other specific values to indicate an error. By checking these return values, you can detect errors and take appropriate actions, such as displaying an error message, logging the error, or executing alternative code paths. Additionally, you can use conditional statements and error handling techniques like try-catch blocks to handle exceptions that may occur during function execution. It's important to handle errors effectively to ensure proper program execution and provide a good user experience.
+
+**[⬆ Back to Top](#table-of-contents)**
 
