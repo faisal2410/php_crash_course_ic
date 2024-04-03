@@ -14,156 +14,156 @@
   | web development with php  | [Which of the following are common uses of PHP ?](#webdevelopmentwithphp3) |
   | web development with php  | [Imagine you are tasked with developing a dynamic website that interacts with a database.Would PHP be a suitable choice for this task ? Why or why not ?](#webdevelopmentwithphp4) |
   | php installation  | [ On which of the following operating systems can PHP be installed ?](#phpinstall1) |
-|   10    | php installation  | [ After installing PHP, you need to restart the ______ to make sure the changes take effect.](#phpinstall2) |
-|   11    | php installation  | [ PHP can only be installed on a Linux operating system.](#phpinstall3) |
-|   12    | php installation  | [ After installing PHP, you can immediately start running PHP scripts without restarting the server.](#phpinstall4) |
-|   13    | php installation  | [ Which of the following are steps in the PHP installation process ?](#phpinstall5) |
-|   14    | php installation  | [ Which of the following are requirements for installing PHP ?](#phpinstall6) |
-|   15    | php installation  | [ You have been asked to set up a local development environment for PHP.What steps would you take ?](#phpinstall7) |
-|   16    | local development environment     | [What is the software stack called that includes PHP, Apache, and MySQL for Windows?](#local1)           |
-|   17    | local development environment     | [Which of the following software stacks include PHP?](#local2)           |
-|   18    | php syntax  | [PHP scripts are enclosed within ______ tags.](#phpsyntax1) |
-|   19    | php variable     | [How are variables in PHP declared ?](#var1)           |
-|   20    | php variable     | [In PHP, a variable name must start with a ______ followed by the name of the variable.](#var2)                  |
-|   21    | php variable     | [PHP is case -sensitive for variable names.](#var3)                      |
-|   22    | php variable     | [In PHP, variable names can start with a number.](#var4)                      |
-|   23    | php variable    | [Which of the following are valid PHP variable names ?](#var5)              |
-|   24    | php variable  | [You need to declare a variable in PHP to store a user's age. How would you do this?](#var6)            |
-|   25    | php variable     | [What is the scope of a variable that is declared within a PHP function?](#var7)           |
-|   26    | php variable           | [What keyword is used in PHP to access a global variable inside a function?](#var8) |
-|   27    | php variable           | [Which type of variable in PHP is accessible anywhere in the script ?](#var9) |
-|   28    | php variable           | [A variable declared within a function in PHP has a ______ scope.](#var10) |
-|   29    | php variable           | [The ______ keyword is used in PHP to make a local variable accessible globally.](#var11) |
-|   30    | php variable           | [ A variable declared outside all functions in PHP is considered to have a ______ scope.](#var12) |
-|   31    | php variable           | [ In PHP, variables declared inside a function can be accessed outside of that function.](#var13) |
-|   32    | php variable           | [ PHP uses the global keyword to make a local variable have global scope.](#var14) |
-|   33    | php data types           | [ What data type would be used in PHP to store a numeric value without a decimal ?](#datatype1) |
-|   34    | php data types  | [ What is the data type in PHP that is used to store a sequence of characters ?](#datatype2) |
-|   35    | php data types  | [ Which PHP data type can hold multiple values ?](#datatype3) |
-|   36    | php data types  | [ In PHP, a boolean data type can hold one of two values: ______ or ______.](#datatype4) |
-|   37    | php data types  | [ The ______ data type in PHP is used to store a number with a decimal point.](#datatype5) |
-|   38    | php data types  | [ An array in PHP is a type of ______ data type.](#datatype6) |
-|   39    | php data types  | [ PHP supports eight primitive data types.](#datatype7) |
-|   40    | php data types  | [ In PHP, a string can contain letters, numbers, and special characters.](#datatype8) |
-|   41    | php data types  | [ In PHP, an array can only hold values of the same data type.](#datatype9) |
-|   42    | php data types  | [ Which of the following are valid data types in PHP ?](#datatype10) |
-|   43    | php data types  | [ Which of the following PHP data types can hold multiple values?](#datatype11) |
-|   44    | php data types  | [ Which of the following are true about PHP data types ?](#datatype12) |
-|   45    | php data types  | [ You need to store a user's age in your PHP script. What data type would you use and why?](#datatype13) |
-|   46    | php data types  | [ You have a variable in your PHP script that needs to hold a simple true or false value.What data type would you use ?](#datatype14) |
-|   47    | php data types  | [ Which PHP function is used to check if a variable is of a specified type ?](#datatype15) |
-|   48    | php data types  | [ You have a PHP script and you need to check if a variable is of a specified type.How would you do this ?](#datatype16) |
-|   49    | php and html  | [How can PHP and HTML interact ?](#phpandhtml1) |
-|   50    | php and html  | [Is it possible to submit a form with a dedicated button?](#phpandhtml2) |
-|   51    | php and javascript  | [How can PHP and JavaScript interact?](#phpandjavascript1) |
-|   52    | php string manipulation  | [What is the purpose of the str_replace() function in PHP ?](#phpstringmanipulation1) |
-|   53    | php function  | [The ______ function can be used in PHP to check the installed version of PHP.](#phpfunction1) |
-|   54    | php function  | [You want to check which version of PHP you have installed on your server.How would you do this ?](#phpfunction2) |
-|   55    | php file handling  | [How can you handle file uploads in PHP ? Discuss the steps involved and best practices to ensure security and validation.](#phpfilehandling1) |
-|   56    | php file handling  | [What is the function file_get_contents() useful for?](#phpfilehandling2) |
-|   57    | php file handling  | [What does the unlink() function mean?](#phpfilehandling3) |
-|   58    | php file handling  | [What is the purpose of the file_put_contents() function in PHP ?](#phpfilehandling4) |
-|   59    | php file handling  | [What is the purpose of the file_exists() function in PHP ?](#phpfilehandling5) |
-|   60    | php file handling  | [What is the purpose of the file_get_contents() function in PHP ?](#phpfilehandling6) |
-|   61    | php file handling  | [You are writing a PHP script and you need to upload a file. How would you do this?](#phpfilehandling7) |
-|   62    | php file handling  | [You have a PHP script and you need to move an uploaded file to a specific directory. How would you do this?](#phpfilehandling8) |
-|   63    | php file handling  | [You need to handle file uploads in your PHP script, including checking the size and type of the uploaded file and handling any upload errors. How would you do this?](#phpfilehandling9) |
-|   64    | php form handling  | [How can we access the data sent through the URL with the GET method?](#phpformhandling1) |
-|   65    | php form handling  |[How can we access the data sent through the URL with the POST method?](#phpformhandling2) |
-|   66    | php form handling  |[What is Form Handling in PHP ?](#phpformhandling3) |
-|   67    | php form handling  |[How do you handle forms in PHP ?](#phpformhandling4) |
-|   68    | php form handling  |[What is a common use case for Form Handling in PHP ?](#phpformhandling5) |
-|   69    | php form handling  |[In PHP, Form Handling involves collecting, processing, and responding to user data submitted through ______.](#phpformhandling6) |
-|   70    | php form handling  |[In PHP, to handle a form, you can use the $_POST or $_GET superglobal to access the data, where the method used depends on the ______ attribute of the form element in the HTML.](#phpformhandling7) |
-|   71    | php form handling  |[A common use case for Form Handling in PHP is to ______.](#phpformhandling8) |
-|   72    | php form handling  |[Form Handling in PHP can involve data validation.](#phpformhandling9) |
-|   73    | php form handling  |[You can use Form Handling in PHP to send data to a database.](#phpformhandling10) |
-|   74    | php form handling  |[The $_POST superglobal in PHP is often used to handle form data.](#phpformhandling11) |
-|   75    | php form handling  |[Which of the following are true about Form Handling in PHP ?](#phpformhandling12) |
-|   76    | php form handling  |[What can be potential issues when handling forms in PHP ?](#phpformhandling13) |
-|   77    | php form handling  |[Which of the following are common uses of Form Handling in PHP ?](#phpformhandling14) |
-|   78    | php form handling  |[How can you make a field required in a PHP form?](#phpformhandling15) |
-|   79    | php form handling  |[What happens if a required field is left empty in a PHP form ?](#phpformhandling16) |
-|   80    | php form handling  |[How can you display an error message if a required field is left empty in a PHP form ?](#phpformhandling17) |
-|   81    | php form handling  |[In PHP forms, you can make a field required by checking if the respective $_POST or $_GET variable is ______.](#phpformhandling18) |
-|   82    | php form handling  |[If a required field is left empty in a PHP form, you can display an error message by ______.](#phpformhandling19) |
-|   83    | php form handling  |[A common practice in PHP forms is to set an error variable for each field and display the error message next to the field if the ______.](#phpformhandling20) |
-|   84    | php form handling  |[In PHP forms, you can make a field required by using the required attribute in the HTML.](#phpformhandling21) |
-|   85    | php form handling  |[In PHP forms, you can check if a required field is empty using the empty() function.](#phpformhandling22) |
-|   86    | php form handling  |[If a required field is left empty in a PHP form, the form can still be submitted.](#phpformhandling23) |
-|   87    | php form handling  |[Which of the following are ways to make a field required in a PHP form ?](#phpformhandling24) |
-|   88    | php form handling  |[What can happen if a required field is left empty in a PHP form ?](#phpformhandling25) |
-|   89    | php superglobals  |[What is the $_POST superglobal in PHP?](#phpsuperglobals1) |
-|   90    | php superglobals  |[How do you use the $_POST superglobal in PHP?](#phpsuperglobals2) |
-|   91    | php superglobals  |[What is a common use case for the $_POST superglobal in PHP?](#phpsuperglobals3) |
-|   92    | php superglobals  |[In PHP, $_POST is a superglobal array that is used to collect form data after submitting an HTML form with ______ as the method.](#phpsuperglobals4) |
-|   93    | php superglobals  |[To access data from the $_POST superglobal in PHP, you can use $_POST'fieldname' where 'fieldname' is the name of the ______ you wish to access.](#phpsuperglobals5) |
-|   94    | php superglobals  |[A common use case for the $_POST superglobal in PHP is to collect the form data after submitting an HTML form with ______.](#phpsuperglobals6) |
-|   95    | php superglobals  |[The $_POST superglobal in PHP is an associative array.](#phpsuperglobals7) |
-|   96    | php superglobals  |[You can use the $_POST superglobal in PHP to get data sent in the URL's query string.](#phpsuperglobals8) |
-|   97    | php superglobals  |[The $_POST superglobal in PHP is often used to collect form data sent via the POST method.](#phpsuperglobals9) |
-|   98    | php superglobals  |[Which of the following are true about the $_POST superglobal in PHP?](#phpsuperglobals10) |
-|   99    | php superglobals  |[What can be potential issues when working with the $_POST superglobal in PHP ?](#phpsuperglobals11) |
-|   100    | php superglobals  |[Which of the following are common uses of the $_POST superglobal in PHP ?](#phpsuperglobals12) |
-|   101    | php superglobals  |[You are writing a PHP script and you need to collect form data sent via the POST method.How would you do this using the $_POST superglobal ?](#phpsuperglobals13) |
-|   102    | php superglobals  |[You have a PHP script and you need to access data sent via the POST method from a form.How would you do this using the $_POST superglobal ?](#phpsuperglobals14) |
-|   103    | php superglobals  |[You need to process form data sent via the POST method in your PHP script.How would you do this using the $_POST superglobal ?](#phpsuperglobals15) |
-|   104    | php superglobals  |[What is the $_GET superglobal in PHP ?](#phpsuperglobals16) |
-|   105    | php superglobals  |[How do you use the $_GET superglobal in PHP ?](#phpsuperglobals17) |
-|   106    | php superglobals  |[What is a common use case for the $_GET superglobal in PHP ?](#phpsuperglobals18) |
-|   107    | php superglobals  |[In PHP, $_GET is a superglobal array that is used to collect data sent in the URL's ______.](#phpsuperglobals19) |
-|   108    | php superglobals  |[To access data from the $_GET superglobal in PHP, you can use $_GET'parameter' where 'parameter' is the name of the ______ you wish to access.](#phpsuperglobals20) |
-|   109    | php superglobals  |[A common use case for the $_GET superglobal in PHP is to collect the data sent in the ______.](#phpsuperglobals21) |
-|   110    | php superglobals  |[The $_GET superglobal in PHP is an associative array.](#phpsuperglobals22) |
-|   111    | php superglobals  |[You can use the $_GET superglobal in PHP to get data sent via the POST method from a form.](#phpsuperglobals23) |
-|   112    | php superglobals  |[The $_GET superglobal in PHP is often used to collect data sent in the URL's query string.](#phpsuperglobals24) |
-|   113    | php superglobals  |[Which of the following are true about the $_GET superglobal in PHP ?](#phpsuperglobals25) |
-|   114    | php superglobals  |[What can be potential issues when working with the $_GET superglobal in PHP ?](#phpsuperglobals26) |
-|   115    | php superglobals  |[Which of the following are common uses of the $_GET superglobal in PHP ?](#phpsuperglobals27) |
-|   116    | php superglobals  |[You are writing a PHP script and you need to collect data sent in the URL's query string. How would you do this using the $_GET superglobal?](#phpsuperglobals28) |
-|   117    | php superglobals  |[You have a PHP script and you need to access data sent via the GET method from a form.How would you do this using the $_GET superglobal ?](#phpsuperglobals29) |
-|   118    | php superglobals  |[You need to process data sent in the URL's query string in your PHP script. How would you do this using the $_GET superglobal?](#phpsuperglobals30) |
-|   119    | php superglobals  |[What is the $_SERVER superglobal in PHP ?](#phpsuperglobals31) |
-|   120    | php superglobals  |[How do you use the $_SERVER superglobal in PHP ?](#phpsuperglobals32) |
-|   121    | php superglobals  |[What is a common use case for the $_SERVER superglobal in PHP ?](#phpsuperglobals33) |
-|   122    | php superglobals  |[In PHP, $_SERVER is a superglobal array that contains information such as headers, paths, and ______ locations.](#phpsuperglobals34) |
-|   123    | php superglobals  |[To access data from the $_SERVER superglobal in PHP, you can use $_SERVER'element' where 'element' is the name of the ______ you wish to access.](#phpsuperglobals35) |
-|   124    | php superglobals  |[A common use case for the $_SERVER superglobal in PHP is to access the ______.](#phpsuperglobals36) |
-|   125    | php superglobals  |[The $_SERVER superglobal in PHP is an associative array.](#phpsuperglobals37) |
-|   126    | php superglobals  |[You can use the $_SERVER superglobal in PHP to get the user's IP address.](#phpsuperglobals38) |
-|   127    | php superglobals  |[The $_SERVER superglobal in PHP is often used to get the URL of the current page.](#phpsuperglobals39) |
-|   128    | php superglobals  |[You are writing a PHP script and you need to access the user's IP address. How would you do this using the $_SERVER superglobal?](#phpsuperglobals40) |
-|   129    | php superglobals  |[You have a PHP script and you need to get the URL of the current page.How would you do this using the $_SERVER superglobal ?](#phpsuperglobals41) |
-|   130    | php superglobals  |[You need to access server - specific information in your PHP script.How would you do this using the $_SERVER superglobal ?](#phpsuperglobals42) |
-|   131    | php superglobals  |[What is the $_REQUEST superglobal in PHP ?](#phpsuperglobals43) |
-|   132    | php superglobals  |[How do you use the $_REQUEST superglobal in PHP ?](#phpsuperglobals44) |
-|   133    | php superglobals  |[What is a common use case for the $_REQUEST superglobal in PHP ?](#phpsuperglobals45) |
-|   134    | php superglobals  |[In PHP, $_REQUEST is a superglobal array that contains the contents of $_GET, $_POST, and $_COOKIE.It is commonly used to collect the ______ data after submitting an HTML form.](#phpsuperglobals46) |
-|   135    | php superglobals  |[To access data from the $_REQUEST superglobal in PHP, you can use $_REQUEST'fieldname' where 'fieldname' is the name of the ______ you wish to access.](#phpsuperglobals47) |
-|   136    | php superglobals  |[Which of the following are true about the $_REQUEST superglobal in PHP ?](#phpsuperglobals48) |
-|   137    | php superglobals  |[What can be potential issues when working with the $_REQUEST superglobal in PHP ?](#phpsuperglobals49) |
-|   138    | php superglobals  |[Which of the following are common uses of the $_REQUEST superglobal in PHP ?](#phpsuperglobals50) |
-|   139    | php superglobals  |[You are writing a PHP script and you need to collect form data, but you don't know if the data was sent using the GET or the POST method. How would you do this using the $_REQUEST superglobal?](#phpsuperglobals51) |
-|   140    | php superglobals  |[You have a PHP script and you need to get data sent in the URL's query string. How would you do this using the $_REQUEST superglobal?](#phpsuperglobals52) |
-|   141    | php superglobals  |[You need to access data sent via a form in your PHP script.How would you do this using the $_REQUEST superglobal ?](#phpsuperglobals53) |
-|   142    | php form validation  |[How can you validate an email field in a PHP form ?](#phpformvalidation1) |
-|   143    | php form validation  |[How can you validate a URL field in a PHP form ?](#phpformvalidation2) |
-|   144    | php form validation  |[What PHP function can be used to validate an email in a PHP form?](#phpformvalidation3) |
-|   145    | php form validation  |[You need to prevent form submission in your PHP script if a required field is left empty.How would you do this ?](#phpformvalidation4) |
-|   146    | php form validation  |[You are writing a PHP script and you need to make a form field required.How would you do this ?](#phpformvalidation5) |
-|   147    | php form validation  |[You have a PHP script and you need to display an error message if a required field is left empty.How would you do this ?](#phpformvalidation6) |
-|   148    | php form validation  |[In PHP forms, you can validate an email field using the filter_var() function with FILTER_VALIDATE_EMAIL as the ______.](#phpformvalidation7) |
-|   149    | php form validation  |[If a URL field in a PHP form does not validate, you can display an error message by ______.](#phpformvalidation8) |
-|   150    | php cookies  |[How can you set a cookie in PHP ?](#phpcookies1) |
-|   151    | php cookies  |[What PHP superglobal array holds the information about cookies ?](#phpcookies2) |
-|   152    | php cookies  |[How can you delete a cookie in PHP ?](#phpcookies3) |
-|   153    | php cookies  |[In PHP, you can set a cookie using the setcookie() function, which takes the name of the cookie, its value, and its expiration time as ______.](#phpcookies4) |
-|   154    | php cookies  |[You can access the cookie's information in PHP using the $_COOKIE ______ array.](#phpcookies5) |
-|   155    | php cookies  |[To delete a cookie in PHP, you can use the setcookie() function with an expiration date in the ______.](#phpcookies6) |
-|   156    | php cookies  |[Which of the following are ways to handle cookies in PHP ?](#phpcookies7) |
-|   157    | php cookies  |[What are some common uses of the $_COOKIE superglobal array in PHP ?](#phpcookies8) |
-|   158    | php cookies  |[What are some common practices in PHP cookie handling ?](#phpcookies9) |
-|   159    | php cookies  |[You are writing a PHP script and you need to set a cookie.How would you do this ?](#phpcookies10) |
+  | php installation  | [ After installing PHP, you need to restart the ______ to make sure the changes take effect.](#phpinstall2) |
+  | php installation  | [ PHP can only be installed on a Linux operating system.](#phpinstall3) |
+  | php installation  | [ After installing PHP, you can immediately start running PHP scripts without restarting the server.](#phpinstall4) |
+  | php installation  | [ Which of the following are steps in the PHP installation process ?](#phpinstall5) |
+  | php installation  | [ Which of the following are requirements for installing PHP ?](#phpinstall6) |
+  | php installation  | [ You have been asked to set up a local development environment for PHP.What steps would you take ?](#phpinstall7) |
+  | local development environment     | [What is the software stack called that includes PHP, Apache, and MySQL for Windows?](#local1)           |
+  | local development environment     | [Which of the following software stacks include PHP?](#local2)           |
+  | php syntax  | [PHP scripts are enclosed within ______ tags.](#phpsyntax1) |
+  | php variable     | [How are variables in PHP declared ?](#var1)           |
+  | php variable     | [In PHP, a variable name must start with a ______ followed by the name of the variable.](#var2)                  |
+  | php variable     | [PHP is case -sensitive for variable names.](#var3)                      |
+  | php variable     | [In PHP, variable names can start with a number.](#var4)                      |
+  | php variable    | [Which of the following are valid PHP variable names ?](#var5)              |
+  | php variable  | [You need to declare a variable in PHP to store a user's age. How would you do this?](#var6)            |
+  | php variable     | [What is the scope of a variable that is declared within a PHP function?](#var7)           |
+  | php variable           | [What keyword is used in PHP to access a global variable inside a function?](#var8) |
+  | php variable           | [Which type of variable in PHP is accessible anywhere in the script ?](#var9) |
+  | php variable           | [A variable declared within a function in PHP has a ______ scope.](#var10) |
+  | php variable           | [The ______ keyword is used in PHP to make a local variable accessible globally.](#var11) |
+  | php variable           | [ A variable declared outside all functions in PHP is considered to have a ______ scope.](#var12) |
+  | php variable           | [ In PHP, variables declared inside a function can be accessed outside of that function.](#var13) |
+  | php variable           | [ PHP uses the global keyword to make a local variable have global scope.](#var14) |
+  | php data types           | [ What data type would be used in PHP to store a numeric value without a decimal ?](#datatype1) |
+  | php data types  | [ What is the data type in PHP that is used to store a sequence of characters ?](#datatype2) |
+  | php data types  | [ Which PHP data type can hold multiple values ?](#datatype3) |
+  | php data types  | [ In PHP, a boolean data type can hold one of two values: ______ or ______.](#datatype4) |
+  | php data types  | [ The ______ data type in PHP is used to store a number with a decimal point.](#datatype5) |
+  | php data types  | [ An array in PHP is a type of ______ data type.](#datatype6) |
+  | php data types  | [ PHP supports eight primitive data types.](#datatype7) |
+  | php data types  | [ In PHP, a string can contain letters, numbers, and special characters.](#datatype8) |
+  | php data types  | [ In PHP, an array can only hold values of the same data type.](#datatype9) |
+  | php data types  | [ Which of the following are valid data types in PHP ?](#datatype10) |
+  | php data types  | [ Which of the following PHP data types can hold multiple values?](#datatype11) |
+  | php data types  | [ Which of the following are true about PHP data types ?](#datatype12) |
+  | php data types  | [ You need to store a user's age in your PHP script. What data type would you use and why?](#datatype13) |
+  | php data types  | [ You have a variable in your PHP script that needs to hold a simple true or false value.What data type would you use ?](#datatype14) |
+  | php data types  | [ Which PHP function is used to check if a variable is of a specified type ?](#datatype15) |
+  | php data types  | [ You have a PHP script and you need to check if a variable is of a specified type.How would you do this ?](#datatype16) |
+  | php and html  | [How can PHP and HTML interact ?](#phpandhtml1) |
+  | php and html  | [Is it possible to submit a form with a dedicated button?](#phpandhtml2) |
+  | php and javascript  | [How can PHP and JavaScript interact?](#phpandjavascript1) |
+  | php string manipulation  | [What is the purpose of the str_replace() function in PHP ?](#phpstringmanipulation1) |
+  | php function  | [The ______ function can be used in PHP to check the installed version of PHP.](#phpfunction1) |
+  | php function  | [You want to check which version of PHP you have installed on your server.How would you do this ?](#phpfunction2) |
+  | php file handling  | [How can you handle file uploads in PHP ? Discuss the steps involved and best practices to ensure security and validation.](#phpfilehandling1) |
+  | php file handling  | [What is the function file_get_contents() useful for?](#phpfilehandling2) |
+  | php file handling  | [What does the unlink() function mean?](#phpfilehandling3) |
+  | php file handling  | [What is the purpose of the file_put_contents() function in PHP ?](#phpfilehandling4) |
+  | php file handling  | [What is the purpose of the file_exists() function in PHP ?](#phpfilehandling5) |
+  | php file handling  | [What is the purpose of the file_get_contents() function in PHP ?](#phpfilehandling6) |
+  | php file handling  | [You are writing a PHP script and you need to upload a file. How would you do this?](#phpfilehandling7) |
+  | php file handling  | [You have a PHP script and you need to move an uploaded file to a specific directory. How would you do this?](#phpfilehandling8) |
+  | php file handling  | [You need to handle file uploads in your PHP script, including checking the size and type of the uploaded file and handling any upload errors. How would you do this?](#phpfilehandling9) |
+  | php form handling  | [How can we access the data sent through the URL with the GET method?](#phpformhandling1) |
+  | php form handling  |[How can we access the data sent through the URL with the POST method?](#phpformhandling2) |
+  | php form handling  |[What is Form Handling in PHP ?](#phpformhandling3) |
+  | php form handling  |[How do you handle forms in PHP ?](#phpformhandling4) |
+  | php form handling  |[What is a common use case for Form Handling in PHP ?](#phpformhandling5) |
+  | php form handling  |[In PHP, Form Handling involves collecting, processing, and responding to user data submitted through ______.](#phpformhandling6) |
+  | php form handling  |[In PHP, to handle a form, you can use the $_POST or $_GET superglobal to access the data, where the method used depends on the ______ attribute of the form element in the HTML.](#phpformhandling7) |
+  | php form handling  |[A common use case for Form Handling in PHP is to ______.](#phpformhandling8) |
+  | php form handling  |[Form Handling in PHP can involve data validation.](#phpformhandling9) |
+  | php form handling  |[You can use Form Handling in PHP to send data to a database.](#phpformhandling10) |
+  | php form handling  |[The $_POST superglobal in PHP is often used to handle form data.](#phpformhandling11) |
+  | php form handling  |[Which of the following are true about Form Handling in PHP ?](#phpformhandling12) |
+  | php form handling  |[What can be potential issues when handling forms in PHP ?](#phpformhandling13) |
+  | php form handling  |[Which of the following are common uses of Form Handling in PHP ?](#phpformhandling14) |
+  | php form handling  |[How can you make a field required in a PHP form?](#phpformhandling15) |
+  | php form handling  |[What happens if a required field is left empty in a PHP form ?](#phpformhandling16) |
+  | php form handling  |[How can you display an error message if a required field is left empty in a PHP form ?](#phpformhandling17) |
+  | php form handling  |[In PHP forms, you can make a field required by checking if the respective $_POST or $_GET variable is ______.](#phpformhandling18) |
+  | php form handling  |[If a required field is left empty in a PHP form, you can display an error message by ______.](#phpformhandling19) |
+  | php form handling  |[A common practice in PHP forms is to set an error variable for each field and display the error message next to the field if the ______.](#phpformhandling20) |
+  | php form handling  |[In PHP forms, you can make a field required by using the required attribute in the HTML.](#phpformhandling21) |
+  | php form handling  |[In PHP forms, you can check if a required field is empty using the empty() function.](#phpformhandling22) |
+  | php form handling  |[If a required field is left empty in a PHP form, the form can still be submitted.](#phpformhandling23) |
+  | php form handling  |[Which of the following are ways to make a field required in a PHP form ?](#phpformhandling24) |
+  | php form handling  |[What can happen if a required field is left empty in a PHP form ?](#phpformhandling25) |
+  | php superglobals  |[What is the $_POST superglobal in PHP?](#phpsuperglobals1) |
+  | php superglobals  |[How do you use the $_POST superglobal in PHP?](#phpsuperglobals2) |
+  | php superglobals  |[What is a common use case for the $_POST superglobal in PHP?](#phpsuperglobals3) |
+  | php superglobals  |[In PHP, $_POST is a superglobal array that is used to collect form data after submitting an HTML form with ______ as the method.](#phpsuperglobals4) |
+  | php superglobals  |[To access data from the $_POST superglobal in PHP, you can use $_POST'fieldname' where 'fieldname' is the name of the ______ you wish to access.](#phpsuperglobals5) |
+  | php superglobals  |[A common use case for the $_POST superglobal in PHP is to collect the form data after submitting an HTML form with ______.](#phpsuperglobals6) |
+  | php superglobals  |[The $_POST superglobal in PHP is an associative array.](#phpsuperglobals7) |
+  | php superglobals  |[You can use the $_POST superglobal in PHP to get data sent in the URL's query string.](#phpsuperglobals8) |
+  | php superglobals  |[The $_POST superglobal in PHP is often used to collect form data sent via the POST method.](#phpsuperglobals9) |
+  | php superglobals  |[Which of the following are true about the $_POST superglobal in PHP?](#phpsuperglobals10) |
+  | php superglobals  |[What can be potential issues when working with the $_POST superglobal in PHP ?](#phpsuperglobals11) |
+  | php superglobals  |[Which of the following are common uses of the $_POST superglobal in PHP ?](#phpsuperglobals12) |
+  | php superglobals  |[You are writing a PHP script and you need to collect form data sent via the POST method.How would you do this using the $_POST superglobal ?](#phpsuperglobals13) |
+  | php superglobals  |[You have a PHP script and you need to access data sent via the POST method from a form.How would you do this using the $_POST superglobal ?](#phpsuperglobals14) |
+  | php superglobals  |[You need to process form data sent via the POST method in your PHP script.How would you do this using the $_POST superglobal ?](#phpsuperglobals15) |
+  | php superglobals  |[What is the $_GET superglobal in PHP ?](#phpsuperglobals16) |
+  | php superglobals  |[How do you use the $_GET superglobal in PHP ?](#phpsuperglobals17) |
+  | php superglobals  |[What is a common use case for the $_GET superglobal in PHP ?](#phpsuperglobals18) |
+  | php superglobals  |[In PHP, $_GET is a superglobal array that is used to collect data sent in the URL's ______.](#phpsuperglobals19) |
+  | php superglobals  |[To access data from the $_GET superglobal in PHP, you can use $_GET'parameter' where 'parameter' is the name of the ______ you wish to access.](#phpsuperglobals20) |
+  | php superglobals  |[A common use case for the $_GET superglobal in PHP is to collect the data sent in the ______.](#phpsuperglobals21) |
+  | php superglobals |[The $_GET superglobal in PHP is an associative array.](#phpsuperglobals22) |
+  | php superglobals |[You can use the $_GET superglobal in PHP to get data sent via the POST method from a form.](#phpsuperglobals23) |
+  | php superglobals |[The $_GET superglobal in PHP is often used to collect data sent in the URL's query string.](#phpsuperglobals24) |
+  | php superglobals  |[Which of the following are true about the $_GET superglobal in PHP ?](#phpsuperglobals25) |
+  | php superglobals  |[What can be potential issues when working with the $_GET superglobal in PHP ?](#phpsuperglobals26) |
+  | php superglobals  |[Which of the following are common uses of the $_GET superglobal in PHP ?](#phpsuperglobals27) |
+  | php superglobals  |[You are writing a PHP script and you need to collect data sent in the URL's query string. How would you do this using the $_GET superglobal?](#phpsuperglobals28) |
+  | php superglobals  |[You have a PHP script and you need to access data sent via the GET method from a form.How would you do this using the $_GET superglobal ?](#phpsuperglobals29) |
+  | php superglobals  |[You need to process data sent in the URL's query string in your PHP script. How would you do this using the $_GET superglobal?](#phpsuperglobals30) |
+  | php superglobals  |[What is the $_SERVER superglobal in PHP ?](#phpsuperglobals31) |
+  | php superglobals  |[How do you use the $_SERVER superglobal in PHP ?](#phpsuperglobals32) |
+  | php superglobals  |[What is a common use case for the $_SERVER superglobal in PHP ?](#phpsuperglobals33) |
+  | php superglobals  |[In PHP, $_SERVER is a superglobal array that contains information such as headers, paths, and ______ locations.](#phpsuperglobals34) |
+  | php superglobals  |[To access data from the $_SERVER superglobal in PHP, you can use $_SERVER'element' where 'element' is the name of the ______ you wish to access.](#phpsuperglobals35) |
+  | php superglobals  |[A common use case for the $_SERVER superglobal in PHP is to access the ______.](#phpsuperglobals36) |
+  | php superglobals  |[The $_SERVER superglobal in PHP is an associative array.](#phpsuperglobals37) |
+  | php superglobals  |[You can use the $_SERVER superglobal in PHP to get the user's IP address.](#phpsuperglobals38) |
+  | php superglobals  |[The $_SERVER superglobal in PHP is often used to get the URL of the current page.](#phpsuperglobals39) |
+  | php superglobals  |[You are writing a PHP script and you need to access the user's IP address. How would you do this using the $_SERVER superglobal?](#phpsuperglobals40) |
+  | php superglobals  |[You have a PHP script and you need to get the URL of the current page.How would you do this using the $_SERVER superglobal ?](#phpsuperglobals41) |
+  | php superglobals  |[You need to access server - specific information in your PHP script.How would you do this using the $_SERVER superglobal ?](#phpsuperglobals42) |
+  | php superglobals  |[What is the $_REQUEST superglobal in PHP ?](#phpsuperglobals43) |
+  | php superglobals  |[How do you use the $_REQUEST superglobal in PHP ?](#phpsuperglobals44) |
+  | php superglobals  |[What is a common use case for the $_REQUEST superglobal in PHP ?](#phpsuperglobals45) |
+  | php superglobals  |[In PHP, $_REQUEST is a superglobal array that contains the contents of $_GET, $_POST, and $_COOKIE.It is commonly used to collect the ______ data after submitting an HTML form.](#phpsuperglobals46) |
+  | php superglobals  |[To access data from the $_REQUEST superglobal in PHP, you can use $_REQUEST'fieldname' where 'fieldname' is the name of the ______ you wish to access.](#phpsuperglobals47) |
+  | php superglobals  |[Which of the following are true about the $_REQUEST superglobal in PHP ?](#phpsuperglobals48) |
+  | php superglobals  |[What can be potential issues when working with the $_REQUEST superglobal in PHP ?](#phpsuperglobals49) |
+  | php superglobals  |[Which of the following are common uses of the $_REQUEST superglobal in PHP ?](#phpsuperglobals50) |
+  | php superglobals  |[You are writing a PHP script and you need to collect form data, but you don't know if the data was sent using the GET or the POST method. How would you do this using the $_REQUEST superglobal?](#phpsuperglobals51) |
+  | php superglobals  |[You have a PHP script and you need to get data sent in the URL's query string. How would you do this using the $_REQUEST superglobal?](#phpsuperglobals52) |
+  | php superglobals  |[You need to access data sent via a form in your PHP script.How would you do this using the $_REQUEST superglobal ?](#phpsuperglobals53) |
+  | php form validation  |[How can you validate an email field in a PHP form ?](#phpformvalidation1) |
+  | php form validation  |[How can you validate a URL field in a PHP form ?](#phpformvalidation2) |
+  | php form validation  |[What PHP function can be used to validate an email in a PHP form?](#phpformvalidation3) |
+  | php form validation  |[You need to prevent form submission in your PHP script if a required field is left empty.How would you do this ?](#phpformvalidation4) |
+  | php form validation  |[You are writing a PHP script and you need to make a form field required.How would you do this ?](#phpformvalidation5) |
+  | php form validation  |[You have a PHP script and you need to display an error message if a required field is left empty.How would you do this ?](#phpformvalidation6) |
+  | php form validation  |[In PHP forms, you can validate an email field using the filter_var() function with FILTER_VALIDATE_EMAIL as the ______.](#phpformvalidation7) |
+  | php form validation  |[If a URL field in a PHP form does not validate, you can display an error message by ______.](#phpformvalidation8) |
+  | php cookies  |[How can you set a cookie in PHP ?](#phpcookies1) |
+  | php cookies  |[What PHP superglobal array holds the information about cookies ?](#phpcookies2) |
+  | php cookies  |[How can you delete a cookie in PHP ?](#phpcookies3) |
+  | php cookies  |[In PHP, you can set a cookie using the setcookie() function, which takes the name of the cookie, its value, and its expiration time as ______.](#phpcookies4) |
+  | php cookies  |[You can access the cookie's information in PHP using the $_COOKIE ______ array.](#phpcookies5) |
+  | php cookies  |[To delete a cookie in PHP, you can use the setcookie() function with an expiration date in the ______.](#phpcookies6) |
+  | php cookies  |[Which of the following are ways to handle cookies in PHP ?](#phpcookies7) |
+  | php cookies  |[What are some common uses of the $_COOKIE superglobal array in PHP ?](#phpcookies8) |
+  | php cookies  |[What are some common practices in PHP cookie handling ?](#phpcookies9) |
+  | php cookies  |[You are writing a PHP script and you need to set a cookie.How would you do this ?](#phpcookies10) |
 |   160    | php cookies  |[You have a PHP script and you need to access the information stored in a cookie.How would you do this ?](#phpcookies11) |
 |   161    | php cookies  |[You need to delete a cookie in your PHP script.How would you do this ?](#phpcookies12) |
 |   162    | php sessions  |[How can you start a session in PHP ?](#phpsessions1) |
